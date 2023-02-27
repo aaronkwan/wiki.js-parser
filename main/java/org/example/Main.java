@@ -1,6 +1,8 @@
 package org.example;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -9,69 +11,144 @@ import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        String token = loginWiki();
+        parseWiki(token);
+        System.out.println("JSON file updated!");
+    }
+    public static String loginWiki() {
+        // Workflow:
+        // 1. Grab login parameters
+        // 2. Send login parameters
+        // 3. Grab JWT (Json Web Token)
+        // 4. Use JWT to connect to webpage!!
+        String endpointURL = "https://wiki.playmonumenta.com/graphql";
+        String username = "questguide@playmonumenta.com";
+        String password = "yMuaosLLX1";
+        try {
+            // Grab login parameters (obtained from Network-Payload Tab of inspect element of https://wiki.playmonumenta.com/login):
+            Map<String, Object> loginData = new HashMap<>();
+            loginData.put("operationName", null);
+            loginData.put("extensions",null);
+            Map<String, String> variables = new HashMap<>();
+            variables.put("username", username);
+            variables.put("password", password);
+            variables.put("strategy", "local");
+            loginData.put("variables", variables);
+            loginData.put("query", "mutation ($username: String!, $password: String!, $strategy: String!) {\n  authentication {\n    login(username: $username, password: $password, strategy: $strategy) {\n      responseResult {\n        succeeded\n        errorCode\n        slug\n        message\n        __typename\n      }\n      jwt\n      mustChangePwd\n      mustProvideTFA\n      mustSetupTFA\n      continuationToken\n      redirect\n      tfaQRImage\n      __typename\n    }\n    __typename\n  }\n}\n");
+
+            // Send login parameters:
+            Connection.Response loginResponse = Jsoup.connect(endpointURL)
+                    .header("Content-Type", "application/json")
+                    .requestBody(new Gson().toJson(loginData))
+                    .ignoreContentType(true)
+                    .method(Connection.Method.POST)
+                    .referrer("http://www.google.com")
+                    .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
+                    .execute();
+
+            // Extract the JWT token from request body:
+            Gson gson = new Gson();
+            JsonElement root = gson.fromJson(loginResponse.body(), JsonElement.class);
+            JsonObject obj = root.getAsJsonObject();
+            String token = obj.getAsJsonObject("data")
+                    .getAsJsonObject("authentication")
+                    .getAsJsonObject("login")
+                    .get("jwt")
+                    .getAsString();
+
+            return (token);
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        return ("failed");
+    }
+    public static void parseWiki(String token) {
         System.out.println("-----------------------------LOOK BELOW-----------------------------");
 
         // Create allMyQuests object with built-in ArrayList to hold Quests:
         AllMyQuests allMyQuests = new AllMyQuests();
 
-        // Try Parsing:
-        try {
-            // Make HTTP request:
-            String url = "https://aaronkwan.github.io/ReferenceFiles/Region%201%20Quests%20_%20Wiki.js.html";
-            Connection connection = Jsoup.connect(url);
-            connection.header("Content-Type", "text/html; charset=UTF-8");
-            Document doc = connection.get();
+        // Use JWT token from loginWiki():
+        String authToken = "Bearer " + token; // Add "Bearer" prefix as required by JWT standard
 
-            // Extract from webpage:
-            Elements headers = doc.select("h1"); // One header per Quest, gives title + score.
+        // Workflow:
+        // 1. Loop through each region's webpage, adding to questArrayList
+        // 2. At the end, convert to JSON!
 
-            // Extract text content:
-            // Workflow:
-            // 1. For each <h1> element, select the following descending elements.
-            // 3. Parse the contents of each element selected into our format.
-            // 4. Use this to construct objects, then write them to JSON using Gson.
-            // 5. Note: if element is null, we either append an empty string or append nothing at all.
-
-
-            for (Element header : headers) {
-                String[] titleScoreboardArray = grabTitleAndScoreboard(header); // Title + Scoreboard of the Quest Array
-                System.out.println(Arrays.toString(titleScoreboardArray));
-
-                Element nextEle = header.nextElementSibling(); // Random <div></div>
-                Element requirements = nextEle.nextElementSibling(); // Requirements + Description
-
-                String[] requirementsArray = grabRequirements(requirements); // Requirements Array
-                System.out.println(Arrays.toString(requirementsArray));
-
-                String description = grabDescription(requirements); // Description String
-                System.out.println(description);
-
-                Element nextEle2 = requirements.nextElementSibling(); // Another random <div></div>
-                Element table = nextEle2.nextElementSibling(); // Our table of Quest scoreboard values
-
-                // Create a HashMap with quest scores mapped to their descriptions:
-                LinkedHashMap<String,String> questValueHashMap = grabValuesAndDescription(table); // hashmap
-                System.out.println(Arrays.toString(questValueHashMap.entrySet().toArray())); // print it out
-
-                ArrayList<Integer> questCompletion = grabQuestCompletionValues(questValueHashMap); // quest completion values
-                System.out.println(questCompletion.toString());
-
-                System.out.println("");
-                // Make Quest object, append to allMyQuests object's questArrayList:
-                allMyQuests.questArrayList.add(new Quest(titleScoreboardArray[0],titleScoreboardArray[1],description,questCompletion,requirementsArray,questValueHashMap));
+        for (int region = 1; region <= 3; region++) {
+            // Use URL corresponding to region number:
+            String url = "";
+            if (region == 1) {
+                url = "https://wiki.playmonumenta.com/moderating/quest-scores/region_1";
             }
-            // Catch errors:
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        System.out.println("-----------------------------LOOK ABOVE-----------------------------");
+            if (region == 2) {
+                url = "https://wiki.playmonumenta.com/moderating/quest-scores/region_2";
+            }
+            if (region == 3) {
+                url = "https://wiki.playmonumenta.com/moderating/quest-scores/region_3";
+            }
 
-        // convert allMyQuests object to JSON:
+            // Try Parsing:
+            try {
+                // Make HTTP request:
+                Connection.Response response = Jsoup.connect(url)
+                        .header("Authorization", authToken)
+                        .header("Content-Type", "text/html; charset=UTF-8")
+                        .method(Connection.Method.GET)
+                        .execute();
+
+                // Extract from webpage:
+                Document doc = Jsoup.parse(response.body());
+                Elements headers = doc.select("h1"); // One header per Quest, gives title + score.
+
+                // Extract text content:
+                // Workflow:
+                // 1. For each <h1> element, select the following descending elements.
+                // 3. Parse the contents of each element selected into our format.
+                // 4. Print the contents out (for debugging), construct objects, then write to JSON using Gson.
+                // 5. Note: if element is null, we either append an empty string or append nothing at all.
+
+                for (Element header : headers) {
+                    String[] titleScoreboardArray = grabTitleAndScoreboard(header); // Title + Scoreboard of the Quest Array
+                    System.out.println(Arrays.toString(titleScoreboardArray));
+
+                    Element nextEle = header.nextElementSibling(); // Random <div></div>
+                    Element requirements = nextEle.nextElementSibling(); // Requirements + Description
+
+                    String[] requirementsArray = grabRequirements(requirements); // Requirements Array
+                    System.out.println(Arrays.toString(requirementsArray));
+
+                    String description = grabDescription(requirements); // Description String
+                    System.out.println(description);
+
+                    Element nextEle2 = requirements.nextElementSibling(); // Another random <div></div>
+                    Element table = nextEle2.nextElementSibling(); // Our table of Quest scoreboard values
+
+                    // Create a HashMap with quest scores mapped to their descriptions:
+                    LinkedHashMap<String, String> questValueHashMap = grabValuesAndDescription(table); // hashmap
+                    System.out.println(Arrays.toString(questValueHashMap.entrySet().toArray())); // print it out
+
+                    ArrayList<Integer> questCompletion = grabQuestCompletionValues(questValueHashMap); // quest completion values
+                    System.out.println(questCompletion.toString());
+
+                    System.out.println("");
+                    // Make Quest object, append to allMyQuests object's questArrayList:
+                    allMyQuests.questArrayList.add(new Quest(titleScoreboardArray[0], titleScoreboardArray[1], description, questCompletion, requirementsArray, questValueHashMap));
+                }
+                // Catch errors:
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println("-----------------------------LOOK ABOVE-----------------------------");
+        }
+        // Loop finished, questArrayList now has all the quests in the game:
 
         // Create a Gson object
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -80,10 +157,13 @@ public class Main {
         // Replace pesky "\u0027" characters with apostrophes:
         // json = json.replace("\\u0027", "'");
 
-        // Write to File:
-        File jsonFile = new File("C:/Users/aaron/Desktop/JavaTesting/src/main/resources/mmquest.json");
+        // Select JSON file in resources folder:
+        File workingDir = new File(System.getProperty("user.dir"));
+        File jsonFile = new File(workingDir.getAbsolutePath()+"/src/main/resources/mmquest.json");
+
+        // Then, write to JSON file:
         try {
-            FileWriter writer = new FileWriter(jsonFile, StandardCharsets.UTF_8);
+            FileWriter writer = new FileWriter(jsonFile, StandardCharsets.UTF_8, false);
             writer.write(json);
             writer.close();
         }
@@ -91,13 +171,16 @@ public class Main {
             e.printStackTrace();
         }
     }
-
     public static String[] grabTitleAndScoreboard(Element header) {
         // Convert to string & remove non-number/letter characters (except dashes + whitespace):
         String cleanHeader = header.text().replaceAll("[^a-zA-Z0-9\\s-]", "");
         // Split string at the dash character, trim whitespace:
         String[] parts = cleanHeader.split("-");
         parts[0] = parts[0].trim();
+        // Failsafe for somehow not having a "-" to separate title and scoreboard:
+        if (parts.length<2) {
+            parts = Arrays.copyOf(new String[] { parts[0], "Unknown Scoreboard" }, 2);
+        }
         parts[1] = parts[1].trim();
         // Return:
         return (parts);
