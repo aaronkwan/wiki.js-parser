@@ -9,7 +9,8 @@ a wiki.js parser utlizing Jsoup and Gson to convert the Monumenta Quest Wiki to 
 - Utilizes Gson and Jsoup libraries to convert Quest data to JSON.
 
 # example:
-![image](https://user-images.githubusercontent.com/123356351/221446553-17c388f4-66de-4574-b424-b078117a3aca.png)
+![image](https://user-images.githubusercontent.com/123356351/221503883-1b88e647-e9f9-4f6c-8d62-6d63baca813a.png)
+
 Converts to:
 - The Quest's Name: 
 > "Mages Legacy"
