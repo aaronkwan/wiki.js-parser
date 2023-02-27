@@ -1,18 +1,28 @@
 # wiki.js-parser
-Companion to plugin-mmquest; A wiki.js parser to convert Quest Wiki page to JSON file.
-
-- See [plugin-mmquest](https://github.com/aaronkwan/plugin-mmquest)
+Companion to [plugin-mmquest](https://github.com/aaronkwan/plugin-mmquest): 
+a wiki.js parser utlizing Jsoup and Gson to convert the Monumenta Quest Wiki to JSON config file.
 
 ## Features:
-- Parses Quest tables from Wiki.js -> JSON File:
+- Hashes login parameters, authenticating with the Monumenta Quest Wiki.  
+- Saves JWT (Json Web Token) Authenticator for webpage access.
+- Parses HTML of [Region 1](https://wiki.playmonumenta.com/moderating/quest-scores/region_2), [Region 2](https://wiki.playmonumenta.com/moderating/quest-scores/region_2), and [Region 3](https://wiki.playmonumenta.com/moderating/quest-scores/region_3) Quests.
+- Utilizes Gson and Jsoup libraries to convert Quest data to JSON.
+
+## Example:
 ![image](https://user-images.githubusercontent.com/123356351/221446553-17c388f4-66de-4574-b424-b078117a3aca.png)
-- Obtains:
-- The Quest's Name: "Mages Legacy"
-- The Quest's Scoreboard: "Quest03"
-- The Quest's Description: "Quest Start: Vargos (-735 155 116)"
-- The Quest's Completion Scores: [21]
-- The Quest's Requirements: []
-- The Quest's Values: "questValues": {
+Converts to:
+- The Quest's Name: 
+> "Mages Legacy"
+- The Quest's Scoreboard: 
+> "Quest03"
+- The Quest's Description: 
+> "Quest Start: Vargos (-735 155 116)"
+- The Quest's Completion Scores: 
+> [21]
+- The Quest's Requirements: 
+> []
+- The Quest's Values: 
+> "questValues": {
         "0": "Unstarted",
         "1": "Speaking to Vargos",
         "2": "Speaking to Vargos",
