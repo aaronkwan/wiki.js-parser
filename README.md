@@ -20,4 +20,4 @@ Download jar and use from the command line:
 # Example:
         java -jar /Downloads/wikiparser-1.0.0-all.jar myUsername myPassword ./mmquest.json
         
-This will parse the quest wiki (provided the username and password is correct), posting the results into the file path specified (in this case, it creates a file called mmquest.json in the Downloads folder).
+This will parse the quest wiki (provided the username and password is correct), posting the results into the file path specified. <br> In this case, it uses the jar file in the Downloads folder to create a file 'mmquest.json' in the current directory.
