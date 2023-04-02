@@ -1,6 +1,6 @@
 # wiki.js-parser
 Companion to [plugin-mmquest](https://github.com/aaronkwan/plugin-mmquest): 
-a wiki.js parser utlizing Jsoup and Gson to convert the Monumenta Quest Wiki to JSON config file.
+a command-line wiki.js parser utlizing Jsoup and Gson to convert the Monumenta Quest Wiki to JSON config file.
 
 # features:
 - Hashes login parameters, authenticating with the Monumenta Quest Wiki.  
@@ -43,3 +43,8 @@ Converts to:
         "15": "Received translated notes from Hermy",
         "21": "Quest Complete"
       }
+      
+# TLDR:
+
+![image](https://user-images.githubusercontent.com/123356351/229330725-4947f7db-f256-43b9-8e0e-49c8d59daa46.png)
+
