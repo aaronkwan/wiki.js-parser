@@ -152,7 +152,7 @@ public class Parser {
                     debugOutput.append(questCompletion.toString()).append("\n");
 
                     // Make Quest object, append to allMyQuests object's questArrayList:
-                    allMyQuests.questArrayList.add(new Quest(titleScoreboardArray[0], titleScoreboardArray[1], description, questCompletion, requirementsArray, questValueHashMap));
+                    allMyQuests.mQuestArrayList.add(new Quest(titleScoreboardArray[0], titleScoreboardArray[1], description, questCompletion, requirementsArray, questValueHashMap));
                 }
                 // Catch errors:
             }

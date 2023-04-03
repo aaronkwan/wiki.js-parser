@@ -2,12 +2,12 @@ package org.example;
 import java.util.ArrayList;
 
 public class AllMyQuests {
-    public ArrayList<Quest> questArrayList;
+    public ArrayList<Quest> mQuestArrayList;
 
     // "name": "AllMyQuests",
 
     public AllMyQuests() {
-        questArrayList = new ArrayList<Quest>();
+        mQuestArrayList = new ArrayList<Quest>();
     }
 
 }
