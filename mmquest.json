@@ -1,12 +1,12 @@
 {
   "mQuestArrayList": [
     {
-      "questName": "Tutorial",
-      "questNumber": "Tutorial",
-      "questDescription": "",
-      "questCompleteScores": [],
-      "questReqs": [],
-      "questValues": {
+      "mQuestName": "Tutorial",
+      "mQuestNumber": "Tutorial",
+      "mQuestDescription": "",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [],
+      "mQuestValues": {
         "10": "Spoke to Nurse Deidre",
         "11": "Walked across the Welcome broadcast, head outside",
         "12": "Head to Murano",
@@ -21,14 +21,14 @@
       }
     },
     {
-      "questName": "A Crown of Topaz",
-      "questNumber": "Quest01",
-      "questDescription": "Quest Start: Aimee (-761 106 22)",
-      "questCompleteScores": [
+      "mQuestName": "A Crown of Topaz",
+      "mQuestNumber": "Quest01",
+      "mQuestDescription": "Quest Start: Aimee (-761 106 22)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Aimee for the first time",
         "2": "Speaking to Aimee for the first time",
@@ -39,16 +39,16 @@
       }
     },
     {
-      "questName": "A Crown of Majesty",
-      "questNumber": "Quest01",
-      "questDescription": "Quest Start: Aimee (-761 106 22)",
-      "questCompleteScores": [
+      "mQuestName": "A Crown of Majesty",
+      "mQuestNumber": "Quest01",
+      "mQuestDescription": "Quest Start: Aimee (-761 106 22)",
+      "mQuestCompleteScores": [
         13
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Crown of Topaz"
       ],
-      "questValues": {
+      "mQuestValues": {
         "6": "Unstarted",
         "7": "Speaking to Aimee to receive quest",
         "8": "Speaking to Aimee to receive quest",
@@ -60,15 +60,15 @@
       }
     },
     {
-      "questName": "Bandit Troubles",
-      "questNumber": "Quest02",
-      "questDescription": "Quest Start: Octavius (-673 108 71)",
-      "questCompleteScores": [
+      "mQuestName": "Bandit Troubles",
+      "mQuestNumber": "Quest02",
+      "mQuestDescription": "Quest Start: Octavius (-673 108 71)",
+      "mQuestCompleteScores": [
         8,
         12
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Octavius to receive quest",
         "2": "Speaking to Octavius to receive quest",
@@ -83,14 +83,14 @@
       }
     },
     {
-      "questName": "Mages Legacy",
-      "questNumber": "Quest03",
-      "questDescription": "Quest Start: Vargos (-735 155 116)",
-      "questCompleteScores": [
+      "mQuestName": "Mages Legacy",
+      "mQuestNumber": "Quest03",
+      "mQuestDescription": "Quest Start: Vargos (-735 155 116)",
+      "mQuestCompleteScores": [
         21
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Vargos",
         "2": "Speaking to Vargos",
@@ -112,18 +112,18 @@
       }
     },
     {
-      "questName": "The Staff",
-      "questNumber": "Quest04",
-      "questDescription": "Quest Start: Chest (180 95 -79)",
-      "questCompleteScores": [
+      "mQuestName": "The Staff",
+      "mQuestNumber": "Quest04",
+      "mQuestDescription": "Quest Start: Chest (180 95 -79)",
+      "mQuestCompleteScores": [
         1
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Mages Legacy",
         "Decryption Puzzle completed",
         "a Carved Staff in inventory can be found in starting chest"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted; decryption puzzle not completed",
         "1": "Decryption puzzle completed; quest may now be started",
         "2": "Quest started; Take a Carved Staff to the Water Shrine or Amplified Water Shrine and step on the pressure plate (-263 93 -36)",
@@ -135,16 +135,16 @@
       }
     },
     {
-      "questName": "The Staff",
-      "questNumber": "Quest04",
-      "questDescription": "Quest Start: Chest (180 95 -79)",
-      "questCompleteScores": [],
-      "questReqs": [
+      "mQuestName": "The Staff",
+      "mQuestNumber": "Quest04",
+      "mQuestDescription": "Quest Start: Chest (180 95 -79)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [
         "Black Willows score of 1 or higher",
         "The Staff Quest04 of 6",
         "either an Elemental Staff or Carved Staff in inventory Carved Staff in starting chest"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Unstarted",
@@ -162,18 +162,18 @@
       }
     },
     {
-      "questName": "Buried Blade",
-      "questNumber": "Quest05",
-      "questDescription": "Quest Start: Blackjack Stan (-103 96 -88)",
-      "questCompleteScores": [
+      "mQuestName": "Buried Blade",
+      "mQuestNumber": "Quest05",
+      "mQuestDescription": "Quest Start: Blackjack Stan (-103 96 -88)",
+      "mQuestCompleteScores": [
         9,
         11,
         21
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Bandit Troubles Bad Path"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Speaking to Stan",
@@ -189,17 +189,17 @@
       }
     },
     {
-      "questName": "Missing Soldiers",
-      "questNumber": "Quest06",
-      "questDescription": "Quest Start: Sergeant Sigrun (-137 99 -96)",
-      "questCompleteScores": [
+      "mQuestName": "Missing Soldiers",
+      "mQuestNumber": "Quest06",
+      "mQuestDescription": "Quest Start: Sergeant Sigrun (-137 99 -96)",
+      "mQuestCompleteScores": [
         11,
         24
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Bandit Troubles Good Path"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "4": "Quest started / Tasked to find soldiers",
@@ -215,15 +215,15 @@
       }
     },
     {
-      "questName": "The Plague",
-      "questNumber": "Quest07",
-      "questDescription": "Quest Start: Dr Laurie (-108 95 -114)",
-      "questCompleteScores": [
+      "mQuestName": "The Plague",
+      "mQuestNumber": "Quest07",
+      "mQuestDescription": "Quest Start: Dr Laurie (-108 95 -114)",
+      "mQuestCompleteScores": [
         24,
         25
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Unstarted",
@@ -248,14 +248,14 @@
       }
     },
     {
-      "questName": "Fountain of Miracles",
-      "questNumber": "Quest08",
-      "questDescription": "Quest Start: Drake (592 98 199)",
-      "questCompleteScores": [
+      "mQuestName": "Fountain of Miracles",
+      "mQuestNumber": "Quest08",
+      "mQuestDescription": "Quest Start: Drake (592 98 199)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Drake",
         "2": "Quest given / find fountain",
@@ -271,14 +271,14 @@
       }
     },
     {
-      "questName": "Runaway Pet",
-      "questNumber": "Quest09",
-      "questDescription": "Quest Start: Leonard (613 98 114)",
-      "questCompleteScores": [
+      "mQuestName": "Runaway Pet",
+      "mQuestNumber": "Quest09",
+      "mQuestDescription": "Quest Start: Leonard (613 98 114)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Leonard",
         "2": "Speaking to Leonard",
@@ -289,14 +289,14 @@
       }
     },
     {
-      "questName": "Pyromania",
-      "questNumber": "Quest10",
-      "questDescription": "Quest Start: Carbocius (608 102 156)",
-      "questCompleteScores": [
+      "mQuestName": "Pyromania",
+      "mQuestNumber": "Quest10",
+      "mQuestDescription": "Quest Start: Carbocius (608 102 156)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Carbocious",
         "2": "Speaking to Carbocious",
@@ -305,16 +305,16 @@
       }
     },
     {
-      "questName": "Of Monks and Magic",
-      "questNumber": "Quest11",
-      "questDescription": "Quest Start: Captain Tobias (565 96 124)",
-      "questCompleteScores": [
+      "mQuestName": "Of Monks and Magic",
+      "mQuestNumber": "Quest11",
+      "mQuestDescription": "Quest Start: Captain Tobias (565 96 124)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Mages Legacy"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Captain Tobias",
         "2": "Quest given / find monks",
@@ -330,16 +330,16 @@
       }
     },
     {
-      "questName": "Sons of the Forest",
-      "questNumber": "Quest12",
-      "questDescription": "Quest Start: Captain Tobias (565 96 124)",
-      "questCompleteScores": [
+      "mQuestName": "Sons of the Forest",
+      "mQuestNumber": "Quest12",
+      "mQuestDescription": "Quest Start: Captain Tobias (565 96 124)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Of Monks and Magic"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Speaking to Tobias",
@@ -353,15 +353,15 @@
       }
     },
     {
-      "questName": "Siege of Highwatch",
-      "questNumber": "Quest13",
-      "questDescription": "Quest Start: Commander Haynes (1198 131 -106)",
-      "questCompleteScores": [],
-      "questReqs": [
+      "mQuestName": "Siege of Highwatch",
+      "mQuestNumber": "Quest13",
+      "mQuestDescription": "Quest Start: Commander Haynes (1198 131 -106)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [
         "Sons of the Forest",
         "The Plague"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0: 0 through 1": "Unstarted",
         "4": "Quest given / Fight off attack",
         "5": "Ghasts killed, take out Summoning Stone",
@@ -376,14 +376,14 @@
       }
     },
     {
-      "questName": "A Pirates Life",
-      "questNumber": "Quest14",
-      "questDescription": "Quest Start: Levyn (-809 101 82)",
-      "questCompleteScores": [
+      "mQuestName": "A Pirates Life",
+      "mQuestNumber": "Quest14",
+      "mQuestDescription": "Quest Start: Levyn (-809 101 82)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Unstarted",
@@ -396,14 +396,14 @@
       }
     },
     {
-      "questName": "Starry Night",
-      "questNumber": "Quest15",
-      "questDescription": "Quest Start: Mayleen (-118 109 -12)",
-      "questCompleteScores": [
+      "mQuestName": "Starry Night",
+      "mQuestNumber": "Quest15",
+      "mQuestDescription": "Quest Start: Mayleen (-118 109 -12)",
+      "mQuestCompleteScores": [
         9
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Speaking to Mayleen",
@@ -417,14 +417,14 @@
       }
     },
     {
-      "questName": "The Salmon",
-      "questNumber": "Quest16",
-      "questDescription": "Quest Start: Dockmaster (691 71 458)",
-      "questCompleteScores": [
+      "mQuestName": "The Salmon",
+      "mQuestNumber": "Quest16",
+      "mQuestDescription": "Quest Start: Dockmaster (691 71 458)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Dockmaster",
         "2": "Speaking to Dockmaster",
@@ -438,15 +438,15 @@
       }
     },
     {
-      "questName": "A Dish to Die For",
-      "questNumber": "Quest17",
-      "questDescription": "Quest Start: Claude (734 74 460)",
-      "questCompleteScores": [
+      "mQuestName": "A Dish to Die For",
+      "mQuestNumber": "Quest17",
+      "mQuestDescription": "Quest Start: Claude (734 74 460)",
+      "mQuestCompleteScores": [
         12,
         13
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Quest given / Go to Tlaxan farm (Also sets the score of Quest17B\u003d2 for some reason)",
         "2": "Given meat to Claude / Find beef in Highlands",
@@ -463,16 +463,16 @@
       }
     },
     {
-      "questName": "Vault of Glass",
-      "questNumber": "Quest18",
-      "questDescription": "Quest Start: Postman (1150 124 -129)",
-      "questCompleteScores": [
+      "mQuestName": "Vault of Glass",
+      "mQuestNumber": "Quest18",
+      "mQuestDescription": "Quest Start: Postman (1150 124 -129)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Bandit Troubles"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Got mail from Postman / Speak to Argent",
         "2": "Speaking to Argent",
@@ -488,14 +488,14 @@
       }
     },
     {
-      "questName": "Nelfines Curse",
-      "questNumber": "Quest19",
-      "questDescription": "Quest Start: Nelfine (-775 103 -6)",
-      "questCompleteScores": [
+      "mQuestName": "Nelfines Curse",
+      "mQuestNumber": "Quest19",
+      "mQuestDescription": "Quest Start: Nelfine (-775 103 -6)",
+      "mQuestCompleteScores": [
         7
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Nelfine",
         "2": "Speaking to Nelfine",
@@ -507,14 +507,14 @@
       }
     },
     {
-      "questName": "Flash in the Pan",
-      "questNumber": "Quest20",
-      "questDescription": "Quest Start: Flashy (-797 100 28)",
-      "questCompleteScores": [
+      "mQuestName": "Flash in the Pan",
+      "mQuestNumber": "Quest20",
+      "mQuestDescription": "Quest Start: Flashy (-797 100 28)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Quest given / Start race",
         "2": "Finished race / Speak to Flashy",
@@ -522,19 +522,19 @@
       }
     },
     {
-      "questName": "Unveiled",
-      "questNumber": "Quest21",
-      "questDescription": "Quest Start: Josiah (1175 143 -120)",
-      "questCompleteScores": [
+      "mQuestName": "Unveiled",
+      "mQuestNumber": "Quest21",
+      "mQuestDescription": "Quest Start: Josiah (1175 143 -120)",
+      "mQuestCompleteScores": [
         20
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Siege of Highwatch",
         "Pyromania",
         "Soul of the Forest",
         "completion of the Yellow dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0: 0 through 1": "Unstarted",
         "2": "Quest given / gather Mistleaves from Cursed Forest and Wand of Blood from Graveyard",
         "3": "Given Mistleaves to Josiah / Talk to Haynes",
@@ -555,26 +555,26 @@
       }
     },
     {
-      "questName": "The Alchemy Labs",
-      "questNumber": "Quest22 RETIRED QUEST",
-      "questDescription": "Quest Start: Sir Reginald (-749 94 -83)",
-      "questCompleteScores": [],
-      "questReqs": [],
-      "questValues": {
+      "mQuestName": "The Alchemy Labs",
+      "mQuestNumber": "Quest22 RETIRED QUEST",
+      "mQuestDescription": "Quest Start: Sir Reginald (-749 94 -83)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [],
+      "mQuestValues": {
         "2": "Automatically set upon doing Labs in the tutorial."
       }
     },
     {
-      "questName": "Winds of War",
-      "questNumber": "Quest23",
-      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
-      "questCompleteScores": [
+      "mQuestName": "Winds of War",
+      "mQuestNumber": "Quest23",
+      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "mQuestCompleteScores": [
         16
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Mages Legacy"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Bhairavi",
         "2": "Quest given",
@@ -597,16 +597,16 @@
       }
     },
     {
-      "questName": "Clear As Glass",
-      "questNumber": "Quest24",
-      "questDescription": "Quest Start: Nelfine (-775 103 -6)",
-      "questCompleteScores": [
+      "mQuestName": "Clear As Glass",
+      "mQuestNumber": "Quest24",
+      "mQuestDescription": "Quest Start: Nelfine (-775 103 -6)",
+      "mQuestCompleteScores": [
         20
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Nelfines Curse"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Nelfine",
         "2": "Quest given / Go to Highwatch",
@@ -630,17 +630,17 @@
       }
     },
     {
-      "questName": "Beasts of Men",
-      "questNumber": "Quest25",
-      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
-      "questCompleteScores": [
+      "mQuestName": "Beasts of Men",
+      "mQuestNumber": "Quest25",
+      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "mQuestCompleteScores": [
         12
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Winds of War",
         "White score of at least 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Bhairavi",
         "2": "Speaking to Bhairavi",
@@ -664,18 +664,18 @@
       }
     },
     {
-      "questName": "Starrier Night",
-      "questNumber": "Quest26 strap in this ones a long one",
-      "questDescription": "Quest Start: Montana (728 106 421)",
-      "questCompleteScores": [
+      "mQuestName": "Starrier Night",
+      "mQuestNumber": "Quest26 strap in this ones a long one",
+      "mQuestDescription": "Quest Start: Montana (728 106 421)",
+      "mQuestCompleteScores": [
         43,
         67
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Starry Night",
         "Bandit Troubles Bad Path to unlock Bad Path"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Montana",
         "2": "Quest given / Find Mayleen",
@@ -739,14 +739,14 @@
       }
     },
     {
-      "questName": "Bane of the Bakers",
-      "questNumber": "Quest27",
-      "questDescription": "Quest Start: Stefan (-865 104 31)",
-      "questCompleteScores": [
+      "mQuestName": "Bane of the Bakers",
+      "mQuestNumber": "Quest27",
+      "mQuestDescription": "Quest Start: Stefan (-865 104 31)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to the Head Baker (-811 102 85)",
         "2": "Report back to Stefan",
@@ -756,18 +756,18 @@
       }
     },
     {
-      "questName": "A Crown of Madness",
-      "questNumber": "Quest28",
-      "questDescription": "Quest Start: Antoine (-766 107 130)",
-      "questCompleteScores": [
+      "mQuestName": "A Crown of Madness",
+      "mQuestNumber": "Quest28",
+      "mQuestDescription": "Quest Start: Antoine (-766 107 130)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Winds of War",
         "A Crown of Majesty",
         "Completion of the White dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 2": "Talk to Antoine in the Academy",
         "3": "Talk to Aimee the Jeweler",
@@ -786,28 +786,28 @@
       }
     },
     {
-      "questName": "Roots of the Plague",
-      "questNumber": "Quest29",
-      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
-      "questCompleteScores": [],
-      "questReqs": [
+      "mQuestName": "Roots of the Plague",
+      "mQuestNumber": "Quest29",
+      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [
         "Beasts of Men",
         "The Plague",
         "Orange score of at least 1"
       ],
-      "questValues": {}
+      "mQuestValues": {}
     },
     {
-      "questName": "Words Upon Hushed Lips",
-      "questNumber": "Quest30",
-      "questDescription": "Quest Start: Dimitri (-783 135 -42)",
-      "questCompleteScores": [
+      "mQuestName": "Words Upon Hushed Lips",
+      "mQuestNumber": "Quest30",
+      "mQuestDescription": "Quest Start: Dimitri (-783 135 -42)",
+      "mQuestCompleteScores": [
         7
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "TotalLevel 3"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Dimitri",
         "2": "Speaking to Dimitri",
@@ -819,17 +819,17 @@
       }
     },
     {
-      "questName": "A Crew to Remember",
-      "questNumber": "Quest31",
-      "questDescription": "Quest Start: Captain Indigo (683 76 491)",
-      "questCompleteScores": [
+      "mQuestName": "A Crew to Remember",
+      "mQuestNumber": "Quest31",
+      "mQuestDescription": "Quest Start: Captain Indigo (683 76 491)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Pirates Life",
         "Optional Requirement Starrier Night for some different dialog"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Levyn",
         "2": "Speak to Levyn below deck in Lowtide",
@@ -847,19 +847,19 @@
       }
     },
     {
-      "questName": "Scars of Magic",
-      "questNumber": "Quest32",
-      "questDescription": "Quest Start: Dimitri (-783 135 -42)",
-      "questCompleteScores": [
+      "mQuestName": "Scars of Magic",
+      "mQuestNumber": "Quest32",
+      "mQuestDescription": "Quest Start: Dimitri (-783 135 -42)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Words Upon Hushed Lips",
         "Of Monks and Magic",
         "Roots of the Plague score of at least 17",
         "Magenta score of at least 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Speak to Deranged Alchemist downstairs",
@@ -878,18 +878,18 @@
       }
     },
     {
-      "questName": "Soul of the Forest",
-      "questNumber": "Quest33",
-      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
-      "questCompleteScores": [
+      "mQuestName": "Soul of the Forest",
+      "mQuestNumber": "Quest33",
+      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Scars of Magic",
         "Siege of Highwatch",
         "Completion of the LB Dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Spoken to Bhairavi, directed to Highwatch",
         "2": "Went to Highwatch jail, directed to Verdant",
@@ -908,17 +908,17 @@
       }
     },
     {
-      "questName": "Memories of Battle",
-      "questNumber": "Quest34",
-      "questDescription": "Quest Start: Jeremiah (-923 107 -103)",
-      "questCompleteScores": [
+      "mQuestName": "Memories of Battle",
+      "mQuestNumber": "Quest34",
+      "mQuestDescription": "Quest Start: Jeremiah (-923 107 -103)",
+      "mQuestCompleteScores": [
         16
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Lost in My Mind",
         "Completion of Wave 10 of the Arena"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Spoken to Jeremiah, directed to the Arena Shop",
         "2": "Talked to Jeremiah in the shop, sent to get Key, return to Jeremiah",
@@ -940,14 +940,14 @@
       }
     },
     {
-      "questName": "Supply and Demand",
-      "questNumber": "Quest35",
-      "questDescription": "Quest Start: Buildmaster Jr. (-779 106 21)",
-      "questCompleteScores": [
+      "mQuestName": "Supply and Demand",
+      "mQuestNumber": "Quest35",
+      "mQuestDescription": "Quest Start: Buildmaster Jr. (-779 106 21)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Buildmaster Jr",
         "2": "Quest given / Get tempered glass",
@@ -963,20 +963,20 @@
       }
     },
     {
-      "questName": "A Study In Crimson",
-      "questNumber": "Quest36",
-      "questDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
-      "questCompleteScores": [
+      "mQuestName": "A Study In Crimson",
+      "mQuestNumber": "Quest36",
+      "mQuestDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
+      "mQuestCompleteScores": [
         28
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Memories of Battle",
         "Soul of the Forest",
         "Unveiled",
         "Shurimas Big Day Off",
         "1 clear of any mode of Ephemeral Corridors"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Jeremiah in the Memory Vault",
         "2": "Speak to Jeremiah in the Memory Vault",
@@ -1009,20 +1009,20 @@
       }
     },
     {
-      "questName": "A Study In Crimson Part Two",
-      "questNumber": "Quest36",
-      "questDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
-      "questCompleteScores": [
+      "mQuestName": "A Study In Crimson Part Two",
+      "mQuestNumber": "Quest36",
+      "mQuestDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
+      "mQuestCompleteScores": [
         48
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Study in Crimson Part One",
         "Outer Demons",
         "Forsworn Sanctum Win",
         "R1 Monument Completion",
         "Kaul victory"
       ],
-      "questValues": {
+      "mQuestValues": {
         "28": "Unstarted",
         "29": "Speak to Jeremiah in the Memory Vault",
         "30": "Click on Azacor’s head in the memory vault",
@@ -1047,14 +1047,14 @@
       }
     },
     {
-      "questName": "Lost in My Mind",
-      "questNumber": "Quest37",
-      "questDescription": "Quest Start: Eowen (601 97 181)",
-      "questCompleteScores": [
+      "mQuestName": "Lost in My Mind",
+      "mQuestNumber": "Quest37",
+      "mQuestDescription": "Quest Start: Eowen (601 97 181)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Quest given / Find Kurtis\u0027 bunker",
@@ -1069,16 +1069,16 @@
       }
     },
     {
-      "questName": "Clucked Up",
-      "questNumber": "Quest38",
-      "questDescription": "Quest Start: Master of Clucks (-106 97 -63)",
-      "questCompleteScores": [
+      "mQuestName": "Clucked Up",
+      "mQuestNumber": "Quest38",
+      "mQuestDescription": "Quest Start: Master of Clucks (-106 97 -63)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "An item with the Clucking enchant"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Talk to Master of Clucks",
@@ -1097,17 +1097,17 @@
       }
     },
     {
-      "questName": "Tlaxan Troubles",
-      "questNumber": "Quest39",
-      "questDescription": "Quest Start: T’Lm (480 25 50)",
-      "questCompleteScores": [
+      "mQuestName": "Tlaxan Troubles",
+      "mQuestNumber": "Quest39",
+      "mQuestDescription": "Quest Start: T’Lm (480 25 50)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Roots of the Plague",
         "Magenta score of at least 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Quest still unstarted, agree to help T’Lm",
         "2": "Quest still unstarted, agree to help T’Lm",
@@ -1123,16 +1123,16 @@
       }
     },
     {
-      "questName": "Time to Reflect",
-      "questNumber": "Quest40",
-      "questDescription": "Quest Start: Barras (427 196 -362)",
-      "questCompleteScores": [
+      "mQuestName": "Time to Reflect",
+      "mQuestNumber": "Quest40",
+      "mQuestDescription": "Quest Start: Barras (427 196 -362)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Tlaxan Troubles"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Then solve the lights out puzzle.",
         "2": "Open the chest in the Vault room.",
@@ -1148,17 +1148,17 @@
       }
     },
     {
-      "questName": "Shurimas Big Day Off",
-      "questNumber": "Quest41",
-      "questDescription": "Quest Start: Shurima (455 192 -382)",
-      "questCompleteScores": [
+      "mQuestName": "Shurimas Big Day Off",
+      "mQuestNumber": "Quest41",
+      "mQuestDescription": "Quest Start: Shurima (455 192 -382)",
+      "mQuestCompleteScores": [
         32
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Tlaxan Troubles",
         "Fountain of Miracles"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Shurima",
         "2": "Talk to Shurima",
@@ -1195,17 +1195,17 @@
       }
     },
     {
-      "questName": "The Crystal Connection",
-      "questNumber": "Quest42",
-      "questDescription": "Quest Start: Macuniloh (482 191 -350)",
-      "questCompleteScores": [
+      "mQuestName": "The Crystal Connection",
+      "mQuestNumber": "Quest42",
+      "mQuestDescription": "Quest Start: Macuniloh (482 191 -350)",
+      "mQuestCompleteScores": [
         24
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Tlaxan Troubles",
         "A Little Spark If it is started"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted/Talk to Macuniloh (NPC location: 482 191 -350)",
         "1": "Keep talking to Macuniloh",
         "2": "Collect 15 Spider Silk from the Swamp Sinkhole. Return to Nurse Deidre with them",
@@ -1233,14 +1233,14 @@
       }
     },
     {
-      "questName": "Casting for Help",
-      "questNumber": "Quest43",
-      "questDescription": "Quest Start: Melinda (-890 96 189)",
-      "questCompleteScores": [
+      "mQuestName": "Casting for Help",
+      "mQuestNumber": "Quest43",
+      "mQuestDescription": "Quest Start: Melinda (-890 96 189)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted/Talk to Melinda (NPC location: -890 96 189)",
         "1": "Talk to Nurse Deidre",
         "2": "Collect 15 Spider Silk from the Swamp Sinkhole. Return to Nurse Deidre with them",
@@ -1251,16 +1251,16 @@
       }
     },
     {
-      "questName": "Starriest Night",
-      "questNumber": "Quest44",
-      "questDescription": "Quest Start: Maywitch (-1630 143 -2)",
-      "questCompleteScores": [
+      "mQuestName": "Starriest Night",
+      "mQuestNumber": "Quest44",
+      "mQuestDescription": "Quest Start: Maywitch (-1630 143 -2)",
+      "mQuestCompleteScores": [
         17
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Starrier Night"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Agree to help",
         "2": "Find a Cloudpiercer Fork in Cloud Piercer (-1538 133 -266), a Starblight Diagonal at the Bastion of Spires (-1366 140 -261), and an Andromeda Clamp at Aphelion Isle (-1518 106 399). Bring them to Maywitch.",
@@ -1282,14 +1282,14 @@
       }
     },
     {
-      "questName": "Outer Demons",
-      "questNumber": "Quest45",
-      "questDescription": "Quest Start: Helring (724 70 523)",
-      "questCompleteScores": [
+      "mQuestName": "Outer Demons",
+      "mQuestNumber": "Quest45",
+      "mQuestDescription": "Quest Start: Helring (724 70 523)",
+      "mQuestCompleteScores": [
         12
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Find Helring’s Diary (x\u003d1466 z\u003d101)",
         "2": "Talk to Helring",
@@ -1306,14 +1306,14 @@
       }
     },
     {
-      "questName": "A Pigculiar Problem",
-      "questNumber": "Quest46",
-      "questDescription": "Quest Start: Walter Jr. (-774 107 121)",
-      "questCompleteScores": [
+      "mQuestName": "A Pigculiar Problem",
+      "mQuestNumber": "Quest46",
+      "mQuestDescription": "Quest Start: Walter Jr. (-774 107 121)",
+      "mQuestCompleteScores": [
         36
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
         "1": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
         "2": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
@@ -1354,17 +1354,17 @@
       }
     },
     {
-      "questName": "Halids Song",
-      "questNumber": "Quest47",
-      "questDescription": "Quest Start: Halid (469 180 -339)",
-      "questCompleteScores": [
+      "mQuestName": "Halids Song",
+      "mQuestNumber": "Quest47",
+      "mQuestDescription": "Quest Start: Halid (469 180 -339)",
+      "mQuestCompleteScores": [
         4,
         5
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Tlaxan Troubles"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Halid with one of the Roguelike records",
         "2": "Give Halid all six Roguelike records",
@@ -1376,14 +1376,14 @@
       }
     },
     {
-      "questName": "Port Panic",
-      "questNumber": "Quest48",
-      "questDescription": "Quest Start: Sergeant Velez (-1012 93 44)",
-      "questCompleteScores": [
+      "mQuestName": "Port Panic",
+      "mQuestNumber": "Quest48",
+      "mQuestDescription": "Quest Start: Sergeant Velez (-1012 93 44)",
+      "mQuestCompleteScores": [
         7
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Sergeant Velez in the instanced area, if you get out of the instance during the quest, the overworld version will take you back there and set your score to 1 if it is between 2 and 5",
         "2": "Battle waves of pirates dying sets you to 1",
@@ -1395,15 +1395,15 @@
       }
     },
     {
-      "questName": "The Scouts Codex",
-      "questNumber": "Quest49",
-      "questDescription": "Quest Start: Scout Laura (-733 129 -252)",
-      "questCompleteScores": [
+      "mQuestName": "The Scouts Codex",
+      "mQuestNumber": "Quest49",
+      "mQuestDescription": "Quest Start: Scout Laura (-733 129 -252)",
+      "mQuestCompleteScores": [
         4,
         11
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Locate the Scout’s Log: Laura (-950 103 -355),then talk to Scout Laura with it in your inventory",
         "2": "Talk to Scout Laura agree to her plan",
@@ -1416,16 +1416,16 @@
       }
     },
     {
-      "questName": "Into Thin Air",
-      "questNumber": "Quest51",
-      "questDescription": "Quest Start: Xenith (-1609 122 17)",
-      "questCompleteScores": [
+      "mQuestName": "Into Thin Air",
+      "mQuestNumber": "Quest51",
+      "mQuestDescription": "Quest Start: Xenith (-1609 122 17)",
+      "mQuestCompleteScores": [
         22
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Starriest Night"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Cloud Piercer around (-1520 98 -271)",
         "2": "Let Cloud Piercer cutscene progress",
@@ -1452,20 +1452,20 @@
       }
     },
     {
-      "questName": "Crystal Visions",
-      "questNumber": "Quest52",
-      "questDescription": "Quest Start: Nai (516 22 564)",
-      "questCompleteScores": [
+      "mQuestName": "Crystal Visions",
+      "mQuestNumber": "Quest52",
+      "mQuestDescription": "Quest Start: Nai (516 22 564)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Corrupted score of at least 1",
         "ForswornSanctum score of at least 1",
         "KaulWins score of at least 1",
         "Shurimas Big Day Off",
         "The Crystal Connection"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Drink the potion Nai gave you",
         "1: 1 or 2": "Head to Velara (494 71 128). Once there head through the path unlocked during Roots of the Plague (936 195 785). Then to the path used during Crystal Connection (986 181 752).",
@@ -1475,16 +1475,16 @@
       }
     },
     {
-      "questName": "A Beast of a Book",
-      "questNumber": "Quest53",
-      "questDescription": "Quest Start: Erwen (600 99 115)",
-      "questCompleteScores": [
+      "mQuestName": "A Beast of a Book",
+      "mQuestNumber": "Quest53",
+      "mQuestDescription": "Quest Start: Erwen (600 99 115)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Yellow"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted",
         "2": "Defeat 5 Star Spitters (Spawner at -1500 46 368). At the moment your score will not be updated after you beat 5, you just have to keep track on your own and realize that you need to go back to Erwen.",
@@ -1500,14 +1500,14 @@
       }
     },
     {
-      "questName": "A Little Spark",
-      "questNumber": "Quest55",
-      "questDescription": "Quest Start: Cinevra (-766 132 64) or Mara (-756 132 73) (depending on Crystal Connection progress)",
-      "questCompleteScores": [
+      "mQuestName": "A Little Spark",
+      "mQuestNumber": "Quest55",
+      "mQuestDescription": "Quest Start: Cinevra (-766 132 64) or Mara (-756 132 73) (depending on Crystal Connection progress)",
+      "mQuestCompleteScores": [
         3
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Vinny, go downstairs, figure out the puzzle. Enter 504 into the elevator. Get the crystal from the chest and bring it to Cinevra",
         "2": "Talk to Cinevra",
@@ -1515,14 +1515,14 @@
       }
     },
     {
-      "questName": "Burning Bright",
-      "questNumber": "Quest56",
-      "questDescription": "Quest Start: Suri (-1580 133 134)",
-      "questCompleteScores": [
+      "mQuestName": "Burning Bright",
+      "mQuestNumber": "Quest56",
+      "mQuestDescription": "Quest Start: Suri (-1580 133 134)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to the Head Alchemist in Sierhaven (-784 117 -50)",
         "2": "Find the button to the puzzle room in Toxin Lab (-1192 36 126), solve the puzzle, get the Thermal Reagent out of the chest (-1181 4 128). Return to Suri.",
@@ -1532,19 +1532,19 @@
       }
     },
     {
-      "questName": "The Elder Scrolls",
-      "questNumber": "Quest57",
-      "questDescription": "Quest Start: T’Xoc (473 196 -355)",
-      "questCompleteScores": [
+      "mQuestName": "The Elder Scrolls",
+      "mQuestNumber": "Quest57",
+      "mQuestDescription": "Quest Start: T’Xoc (473 196 -355)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Unveiled",
         "The Crystal Connection",
         "Reverie",
         "Kaul"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to T’Xoc",
         "2": "Press the button at 490 188 -381, after being teleported move forward into the ice wall. After that teleports you, solve the puzzle. If they leave the area for scores 3 through X repeat the first two steps of this score",
@@ -1560,16 +1560,16 @@
       }
     },
     {
-      "questName": "Snow Man Left Behind",
-      "questNumber": "Quest58",
-      "questDescription": "Quest Start: Selholly Sprignos (-850 101 78)",
-      "questCompleteScores": [
+      "mQuestName": "Snow Man Left Behind",
+      "mQuestNumber": "Quest58",
+      "mQuestDescription": "Quest Start: Selholly Sprignos (-850 101 78)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Words Upon Hushed Lips"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Colder in Nyr (-122 96 -109)",
         "2": "Continue to speak to Colder",
@@ -1585,19 +1585,19 @@
       }
     },
     {
-      "questName": "Finished Business",
-      "questNumber": "Quest59",
-      "questDescription": "Quest Start: Taymian (-826 102 39)",
-      "questCompleteScores": [
+      "mQuestName": "Finished Business",
+      "mQuestNumber": "Quest59",
+      "mQuestDescription": "Quest Start: Taymian (-826 102 39)",
+      "mQuestCompleteScores": [
         9
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "None during the event Shurimas Big Day Off",
         "Study Part 1",
         "Crew to Remember",
         "and Time to Reflect starting next week"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Taymian",
         "2": "Speak to Taymian",
@@ -1623,17 +1623,17 @@
       }
     },
     {
-      "questName": "Voyage of Discovery",
-      "questNumber": "Quest101",
-      "questDescription": "Quest Start: Captain Argoun (625 119 559)",
-      "questCompleteScores": [
+      "mQuestName": "Voyage of Discovery",
+      "mQuestNumber": "Quest101",
+      "mQuestDescription": "Quest Start: Captain Argoun (625 119 559)",
+      "mQuestCompleteScores": [
         13
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Crew to Remember",
         "R1Complete of 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Captain Argoun",
         "2": "Talk to Indigo, go to Region 2",
@@ -1651,17 +1651,17 @@
       }
     },
     {
-      "questName": "Raiding Party",
-      "questNumber": "Quest102",
-      "questDescription": "Quest Start: Captain Lamis (-746 83 1380)",
-      "questCompleteScores": [
+      "mQuestName": "Raiding Party",
+      "mQuestNumber": "Quest102",
+      "mQuestDescription": "Quest Start: Captain Lamis (-746 83 1380)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Unveiled",
         "Voyage of Discovery"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Captain Lamis",
         "2": "Find Levyn at the Barracks at Sea",
@@ -1679,14 +1679,14 @@
       }
     },
     {
-      "questName": "Master of One",
-      "questNumber": "Quest103",
-      "questDescription": "Quest Start: The Teacher (-832 74 1275)",
-      "questCompleteScores": [
+      "mQuestName": "Master of One",
+      "mQuestNumber": "Quest103",
+      "mQuestDescription": "Quest Start: The Teacher (-832 74 1275)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Blacksmith (x: 438, z: 770), Artisan (x: -1500, z: 939), Get both items return to the Teacher",
         "2": "Talk to the Teacher",
@@ -1696,16 +1696,16 @@
       }
     },
     {
-      "questName": "A Towering Objective",
-      "questNumber": "Quest103a Berserker",
-      "questDescription": "Quest Start: Drehal (129 121 725)",
-      "questCompleteScores": [
+      "mQuestName": "A Towering Objective",
+      "mQuestNumber": "Quest103a Berserker",
+      "mQuestDescription": "Quest Start: Drehal (129 121 725)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted, continue talking to Drehal",
         "2": "Take Drehals counter sigil and find another sigil in the Arcane Spire. Then go to the top of the PoI",
@@ -1714,16 +1714,16 @@
       }
     },
     {
-      "questName": "What Lies Within",
-      "questNumber": "Quest103b Elementalist",
-      "questDescription": "Quest Start: Monk Gehri (202 85 1022)",
-      "questCompleteScores": [
+      "mQuestName": "What Lies Within",
+      "mQuestNumber": "Quest103b Elementalist",
+      "mQuestDescription": "Quest Start: Monk Gehri (202 85 1022)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted, continue talking to Monk Gehri",
         "2: 2 Part 1": "Talk to Monk Gehri",
@@ -1734,16 +1734,16 @@
       }
     },
     {
-      "questName": "Unyielding Potential",
-      "questNumber": "Quest103c Swordsage",
-      "questDescription": "Quest Start: Juste (-1105 94 904)",
-      "questCompleteScores": [
+      "mQuestName": "Unyielding Potential",
+      "mQuestNumber": "Quest103c Swordsage",
+      "mQuestDescription": "Quest Start: Juste (-1105 94 904)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted, continue talking to Juste",
         "2": "Talk to Juste, Defeat Richer",
@@ -1752,16 +1752,16 @@
       }
     },
     {
-      "questName": "Putrefaction and Purification",
-      "questNumber": "Quest103d Paladin",
-      "questDescription": "Quest Start: Artol (-1336 132 491)",
-      "questCompleteScores": [
+      "mQuestName": "Putrefaction and Purification",
+      "mQuestNumber": "Quest103d Paladin",
+      "mQuestDescription": "Quest Start: Artol (-1336 132 491)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0: 0 through 13": "Unstarted Talk to Artol",
         "14": "Enter the Cave for a one time message",
         "15": "Fight the WIther, get the Spinal Column",
@@ -1770,16 +1770,16 @@
       }
     },
     {
-      "questName": "Aiming For Success",
-      "questNumber": "Quest103e Ranger",
-      "questDescription": "Quest Start: Hidgir (-1576 112 820)",
-      "questCompleteScores": [
+      "mQuestName": "Aiming For Success",
+      "mQuestNumber": "Quest103e Ranger",
+      "mQuestDescription": "Quest Start: Hidgir (-1576 112 820)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Hidgir",
         "2: 2 through 3": "Talk to Hidgir",
@@ -1789,16 +1789,16 @@
       }
     },
     {
-      "questName": "The Doctors Orders",
-      "questNumber": "Quest103f Apothecary",
-      "questDescription": "Quest Start: Apothecary Voraga (-1609 112 1018)",
-      "questCompleteScores": [
+      "mQuestName": "The Doctors Orders",
+      "mQuestNumber": "Quest103f Apothecary",
+      "mQuestDescription": "Quest Start: Apothecary Voraga (-1609 112 1018)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted, continue talking to Voraga",
         "2": "Talk to Voraga With an Enderscale from Military Base",
@@ -1807,32 +1807,32 @@
       }
     },
     {
-      "questName": "Lost in the Dark",
-      "questNumber": "Quest103g Tenebrist",
-      "questDescription": "Quest Start: Kard (323 49 728)",
-      "questCompleteScores": [
+      "mQuestName": "Lost in the Dark",
+      "mQuestNumber": "Quest103g Tenebrist",
+      "mQuestDescription": "Quest Start: Kard (323 49 728)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Kard and make your way through the maze to talk to Kard again",
         "100": "Quest Complete"
       }
     },
     {
-      "questName": "Guarding the Guarded",
-      "questNumber": "Quest103h Guardian",
-      "questDescription": "Quest Start: Galablad (-1782 143 367)",
-      "questCompleteScores": [
+      "mQuestName": "Guarding the Guarded",
+      "mQuestNumber": "Quest103h Guardian",
+      "mQuestDescription": "Quest Start: Galablad (-1782 143 367)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Galablad and agree to help",
         "2": "If outside talk to Galablad to get inside. If inside talk to Grethony to start the first of 5 waves.",
@@ -1841,16 +1841,16 @@
       }
     },
     {
-      "questName": "Older Magic",
-      "questNumber": "Quest103i Arcanist",
-      "questDescription": "Quest Start: Shepor (-168 162 434)",
-      "questCompleteScores": [
+      "mQuestName": "Older Magic",
+      "mQuestNumber": "Quest103i Arcanist",
+      "mQuestDescription": "Quest Start: Shepor (-168 162 434)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Shepor",
         "2": "Find Unholy Chiastolite in the Cavern of Cinders and bring it to Weaponsmith Hian in Rahkeri",
@@ -1859,16 +1859,16 @@
       }
     },
     {
-      "questName": "A Simple Favor",
-      "questNumber": "Quest103j Assassin",
-      "questDescription": "Quest Start: Venen (-830 115 1396)",
-      "questCompleteScores": [
+      "mQuestName": "A Simple Favor",
+      "mQuestNumber": "Quest103j Assassin",
+      "mQuestDescription": "Quest Start: Venen (-830 115 1396)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Crewman Berz near the Mistport Docks (-806 87 1408)",
         "2": "Talk to Venen",
@@ -1878,16 +1878,16 @@
       }
     },
     {
-      "questName": "Healthful Networking",
-      "questNumber": "Quest103k Hierophant",
-      "questDescription": "Quest Start: Ellen (-1510 93 656)",
-      "questCompleteScores": [
+      "mQuestName": "Healthful Networking",
+      "mQuestNumber": "Quest103k Hierophant",
+      "mQuestDescription": "Quest Start: Ellen (-1510 93 656)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Ellen",
         "2": "Find a Communication Crystal at the Bandit Encampment, return to Ellen",
@@ -1898,16 +1898,16 @@
       }
     },
     {
-      "questName": "An Otherworldly Hunt",
-      "questNumber": "Quest103l Hunter",
-      "questDescription": "Quest Start: Hunter (1 126 878)",
-      "questCompleteScores": [
+      "mQuestName": "An Otherworldly Hunt",
+      "mQuestNumber": "Quest103l Hunter",
+      "mQuestDescription": "Quest Start: Hunter (1 126 878)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head into Palm Tree Paradise and defeat the Otherworldly Cow",
         "2": "Return to Hunter",
@@ -1915,16 +1915,16 @@
       }
     },
     {
-      "questName": "Deaths Swiftness",
-      "questNumber": "Quest103m Harbinger",
-      "questDescription": "Quest Start: Ghostly Figure (202 64 508)",
-      "questCompleteScores": [
+      "mQuestName": "Deaths Swiftness",
+      "mQuestNumber": "Quest103m Harbinger",
+      "mQuestDescription": "Quest Start: Ghostly Figure (202 64 508)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Ghostly Figure",
         "2": "Talk to Ghostly Figure",
@@ -1935,16 +1935,16 @@
       }
     },
     {
-      "questName": "Life is of the Essence",
-      "questNumber": "Quest103n Reaper",
-      "questDescription": "Quest Start: Bero (-865 95 1779)",
-      "questCompleteScores": [
+      "mQuestName": "Life is of the Essence",
+      "mQuestNumber": "Quest103n Reaper",
+      "mQuestDescription": "Quest Start: Bero (-865 95 1779)",
+      "mQuestCompleteScores": [
         100
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Master of One Score of 3 or higher"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Bero",
         "2": "Get the essences of Pirate Captain, Master Scavenger, and Feyrune Marksman and bring them back to Bero",
@@ -1952,16 +1952,16 @@
       }
     },
     {
-      "questName": "An Alcoholic Accord",
-      "questNumber": "Quest104",
-      "questDescription": "Quest Start: Salty Bartender (-829 87 1367)",
-      "questCompleteScores": [
+      "mQuestName": "An Alcoholic Accord",
+      "mQuestNumber": "Quest104",
+      "mQuestDescription": "Quest Start: Salty Bartender (-829 87 1367)",
+      "mQuestCompleteScores": [
         8
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Raiding Party"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Salty Bartender",
         "2": "Find a Distillation Column (-1795 102 869) in the Abandoned Winery, then return to the Salty Bartender",
@@ -1974,16 +1974,16 @@
       }
     },
     {
-      "questName": "The Lost Empire",
-      "questNumber": "Quest105",
-      "questDescription": "Quest Start: HIstorian Rhodes (-757 83 1346)",
-      "questCompleteScores": [
+      "mQuestName": "The Lost Empire",
+      "mQuestNumber": "Quest105",
+      "mQuestDescription": "Quest Start: HIstorian Rhodes (-757 83 1346)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Wizards Apprentice"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Samwell in the sewers",
         "2": "Head into the deeper part of the sewers, jump in the whirlpool, solve the puzzle, see cutscene",
@@ -1994,16 +1994,16 @@
       }
     },
     {
-      "questName": "The Wizards Apprentice",
-      "questNumber": "Quest106",
-      "questDescription": "Quest Start: Izzy (-739 83 1334)",
-      "questCompleteScores": [
+      "mQuestName": "The Wizards Apprentice",
+      "mQuestNumber": "Quest106",
+      "mQuestDescription": "Quest Start: Izzy (-739 83 1334)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "An Alcoholic Accord"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head up the ladder near Izzy",
         "2": "Get the items from the chests upstairs. Return to Izzy",
@@ -2025,16 +2025,16 @@
       }
     },
     {
-      "questName": "Xenophobia",
-      "questNumber": "Quest107",
-      "questDescription": "Quest Start: Izzy (-739 83 1334)",
-      "questCompleteScores": [
+      "mQuestName": "Xenophobia",
+      "mQuestNumber": "Quest107",
+      "mQuestDescription": "Quest Start: Izzy (-739 83 1334)",
+      "mQuestCompleteScores": [
         16
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Lost Empire"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 5": "Talk to Izzy in Mistport to teleport to an instanced area where you need to find 4 items through a find the button style puzzle.",
         "6": "Speak to Captain Indigo in Mistport",
@@ -2052,16 +2052,16 @@
       }
     },
     {
-      "questName": "The Gem of Ishnir",
-      "questNumber": "Quest108",
-      "questDescription": "Quest Start: Sierhaven Smith (340 42 720)",
-      "questCompleteScores": [
+      "mQuestName": "The Gem of Ishnir",
+      "mQuestNumber": "Quest108",
+      "mQuestDescription": "Quest Start: Sierhaven Smith (340 42 720)",
+      "mQuestCompleteScores": [
         9
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Lost Empire"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted talk to Sierhaven Smith",
         "2": "Talk to Archivist Nyra in the Pharaoh’s palace",
@@ -2075,17 +2075,17 @@
       }
     },
     {
-      "questName": "Secrets Best Left Forgotten",
-      "questNumber": "Quest109",
-      "questDescription": "Quest Start: Issa (273 118 79)",
-      "questCompleteScores": [
+      "mQuestName": "Secrets Best Left Forgotten",
+      "mQuestNumber": "Quest109",
+      "mQuestDescription": "Quest Start: Issa (273 118 79)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Gem of Ishnir",
         "Harmonic Convergence"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 3": "Talk to Governor Amarion, Foreman Boris, and Record Keeper Shani. Tags given are Q109Amarion, Q109Boris, and Q109Shani",
         "4": "Talk to Issa",
@@ -2098,13 +2098,13 @@
       }
     },
     {
-      "questName": "Rapacity",
-      "questNumber": "Quest110",
-      "questDescription": "Quest Start: Historian Rhodes (-757 82 1346)",
-      "questCompleteScores": [
+      "mQuestName": "Rapacity",
+      "mQuestNumber": "Quest110",
+      "mQuestDescription": "Quest Start: Historian Rhodes (-757 82 1346)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Xenophobia",
         "Secrets Best Left Forgotten",
         "Mirrored Egos",
@@ -2114,7 +2114,7 @@
         "Light Gray",
         "and Cyan dungeons"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Historian Rhodes",
         "2": "Go with Historian Rhodes to the drained Lime. Find the four pieces of paper. Piece 1 is at -1512 95 -1040 in a gap in the wall, Piece 2 is at -1598 69 -1142 after parkouring up starting from around -1576 49 -1141, Piece 3 is at -1585 40 -1133 you need to race to it after flipping a lever at -1613 40 -1123, Piece 4 is at -1559 86 -1081 after solving the chair puzzle. Once you have all four talk to Historian Rhodes to get a book.",
@@ -2132,16 +2132,16 @@
       }
     },
     {
-      "questName": "Freds Bizarre Adventure",
-      "questNumber": "Quest111",
-      "questDescription": "Quest Start: Fred (-442 14 -496)",
-      "questCompleteScores": [
+      "mQuestName": "Freds Bizarre Adventure",
+      "mQuestNumber": "Quest111",
+      "mQuestDescription": "Quest Start: Fred (-442 14 -496)",
+      "mQuestCompleteScores": [
         13
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Completion of either the Cyan or Light Gray dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 2": "Talk to Fred",
         "3": "Head to Crystalline Vault and watch Fred Drown",
@@ -2158,14 +2158,14 @@
       }
     },
     {
-      "questName": "Long Way Down",
-      "questNumber": "Quest112",
-      "questDescription": "Quest Start: Guard Myra (402 75 687)",
-      "questCompleteScores": [
+      "mQuestName": "Long Way Down",
+      "mQuestNumber": "Quest112",
+      "mQuestDescription": "Quest Start: Guard Myra (402 75 687)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Guard Myra",
         "2": "Head to the top of Cinder’s Roost and defeat the Ponike",
@@ -2174,14 +2174,14 @@
       }
     },
     {
-      "questName": "Ten Thousand Bets",
-      "questNumber": "Quest113",
-      "questDescription": "Quest Start: James (-1722 140 -108)",
-      "questCompleteScores": [
+      "mQuestName": "Ten Thousand Bets",
+      "mQuestNumber": "Quest113",
+      "mQuestDescription": "Quest Start: James (-1722 140 -108)",
+      "mQuestCompleteScores": [
         9
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Go to the Casino by talking to James/Myriad",
         "2": "Watch the scene, hit the button to win a gold bar that James/Myriad takes and then gives back",
@@ -2195,16 +2195,16 @@
       }
     },
     {
-      "questName": "Primeval Creations I",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Old Journal in Inventory (434 59 752) (Al Nera Library)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations I",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Old Journal in Inventory (434 59 752) (Al Nera Library)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Soul of the Forest"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Book grabbed, timer starts quest. Place book in top slot of the furnace at 438 63 774. Enter the first room on the left",
         "2": "Solve the puzzle",
@@ -2214,16 +2214,16 @@
       }
     },
     {
-      "questName": "Primeval Creations II",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Body and Pestilence in Inventory (-6 139 563) (Abandoned Library)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations II",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Body and Pestilence in Inventory (-6 139 563) (Abandoned Library)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Primeval Creations I"
       ],
-      "questValues": {
+      "mQuestValues": {
         "5": "Quest Unstarted",
         "6": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Orange wool",
         "7": "Solve the puzzle",
@@ -2233,16 +2233,16 @@
       }
     },
     {
-      "questName": "Primeval Creations III",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Magic and the Elements in Inventory (-1314 158 93) (Smitten Library)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations III",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Magic and the Elements in Inventory (-1314 158 93) (Smitten Library)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Primeval Creations II"
       ],
-      "questValues": {
+      "mQuestValues": {
         "10": "Quest Unstarted",
         "11": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Light Blue wool",
         "12": "Solve the puzzle",
@@ -2252,16 +2252,16 @@
       }
     },
     {
-      "questName": "Primeval Creations IV",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Knowledge and Balance in Inventory (-2034 140 1284) (Mystical Tower)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations IV",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Knowledge and Balance in Inventory (-2034 140 1284) (Mystical Tower)",
+      "mQuestCompleteScores": [
         20
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Primeval Creations III and Rapacity"
       ],
-      "questValues": {
+      "mQuestValues": {
         "15": "Quest Unstarted",
         "16": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Lime wool",
         "17": "Solve the puzzle",
@@ -2271,16 +2271,16 @@
       }
     },
     {
-      "questName": "Primeval Creations V",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Death and Light in Inventory (-2029 94 -82) (Shroom Spires)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations V",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Death and Light in Inventory (-2029 94 -82) (Shroom Spires)",
+      "mQuestCompleteScores": [
         25
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Primeval Creations IV"
       ],
-      "questValues": {
+      "mQuestValues": {
         "20": "Quest Unstarted",
         "21": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Gray wool",
         "22": "Solve the puzzle",
@@ -2290,16 +2290,16 @@
       }
     },
     {
-      "questName": "Primeval Creations VI",
-      "questNumber": "Quest114",
-      "questDescription": "Quest Start: Mind, Emotion, and ... in Inventory (584 11 -408) (Magmortic Atheneum)",
-      "questCompleteScores": [
+      "mQuestName": "Primeval Creations VI",
+      "mQuestNumber": "Quest114",
+      "mQuestDescription": "Quest Start: Mind, Emotion, and ... in Inventory (584 11 -408) (Magmortic Atheneum)",
+      "mQuestCompleteScores": [
         30
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Primeval Creations V"
       ],
-      "questValues": {
+      "mQuestValues": {
         "25": "Quest Unstarted",
         "26": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Cyan wool",
         "27": "Solve the puzzle",
@@ -2309,17 +2309,17 @@
       }
     },
     {
-      "questName": "The Foreign Soldier",
-      "questNumber": "Quest115",
-      "questDescription": "Quest Start: Region 2 Vargos (-740 83 1337)",
-      "questCompleteScores": [
+      "mQuestName": "The Foreign Soldier",
+      "mQuestNumber": "Quest115",
+      "mQuestDescription": "Quest Start: Region 2 Vargos (-740 83 1337)",
+      "mQuestCompleteScores": [
         5,
         6
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Xenophobia"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted Talk to Vargos",
         "2": "You need to see Ambassador Matori in Alnera (339 72 711), Kugo in Alnera (356 45 717), General Arne in Frostgate (-1499 94 1031), and Ivon the Lazy in Frostgate (-1530 100 1003)",
@@ -2348,16 +2348,16 @@
       }
     },
     {
-      "questName": "Harmonic Convergence",
-      "questNumber": "Quest116",
-      "questDescription": "Quest Start: Harmonious Spirit (-1560 95 955)",
-      "questCompleteScores": [
+      "mQuestName": "Harmonic Convergence",
+      "mQuestNumber": "Quest116",
+      "mQuestDescription": "Quest Start: Harmonious Spirit (-1560 95 955)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Lost Empire"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 2": "Unstarted talk to Harmonious Spirit",
         "2": "Watch the scene, hit the button to win a gold bar that James/Myriad takes and then gives back",
@@ -2374,14 +2374,14 @@
       }
     },
     {
-      "questName": "Fabled Destiny",
-      "questNumber": "Quest117",
-      "questDescription": "Quest Start: Herriot the Loyal (-1531 101 997)",
-      "questCompleteScores": [
+      "mQuestName": "Fabled Destiny",
+      "mQuestNumber": "Quest117",
+      "mQuestDescription": "Quest Start: Herriot the Loyal (-1531 101 997)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Anette",
         "2": "Be near the chest containing the Blade of Destiny when it is opened. (Crystal Forest Grove)",
@@ -2392,19 +2392,19 @@
       }
     },
     {
-      "questName": "Overdoomed",
-      "questNumber": "Quest118",
-      "questDescription": "Quest Start: Archivist Saanavi (-1826 127 -83)",
-      "questCompleteScores": [
+      "mQuestName": "Overdoomed",
+      "mQuestNumber": "Quest118",
+      "mQuestDescription": "Quest Start: Archivist Saanavi (-1826 127 -83)",
+      "mQuestCompleteScores": [
         6,
         13
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Simple Favor Only to buy the poison to poison Cypress",
         "you can get it from someone else and skip this requirement",
         "or just not poison him and also skip it"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Cypress",
         "2: 2 Drinking Contest": "Challenge Cypress to a contest. This sets your score to 10",
@@ -2420,28 +2420,28 @@
       }
     },
     {
-      "questName": "Sabotage",
-      "questNumber": "Quest119",
-      "questDescription": "Quest Start: Lieutenant Aulber (-142 177 467)",
-      "questCompleteScores": [
+      "mQuestName": "Sabotage",
+      "mQuestNumber": "Quest119",
+      "mQuestDescription": "Quest Start: Lieutenant Aulber (-142 177 467)",
+      "mQuestCompleteScores": [
         2
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head to the Abandoned Lab, collect 12 Infused Gunpowder, talk to Lieutenant Aulber",
         "2": "Quest Complete"
       }
     },
     {
-      "questName": "Vital Needs",
-      "questNumber": "Quest120",
-      "questDescription": "Quest Start: Dr. Qure (-758 86 1355)",
-      "questCompleteScores": [
+      "mQuestName": "Vital Needs",
+      "mQuestNumber": "Quest120",
+      "mQuestDescription": "Quest Start: Dr. Qure (-758 86 1355)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Travel to Fungus Thorn Cave, get a Tenebre Mushroom, return to Dr. Qure",
         "2": "Travel to Feyrune Forest, get a Saragundi Sapling, return to Dr. Qure",
@@ -2450,14 +2450,14 @@
       }
     },
     {
-      "questName": "A Merchants Woe",
-      "questNumber": "Quest121",
-      "questDescription": "Quest Start: Riaz (-98 154 459)",
-      "questCompleteScores": [
+      "mQuestName": "A Merchants Woe",
+      "mQuestNumber": "Quest121",
+      "mQuestDescription": "Quest Start: Riaz (-98 154 459)",
+      "mQuestCompleteScores": [
         4
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Supplier Anebos below Cinder’s Roost (x:127 y:78 z:632)",
         "2": "Talk to Riaz",
@@ -2467,14 +2467,14 @@
       }
     },
     {
-      "questName": "Stablemasters Request",
-      "questNumber": "Quest122",
-      "questDescription": "Quest Start: Miane (208 100 8)",
-      "questCompleteScores": [
+      "mQuestName": "Stablemasters Request",
+      "mQuestNumber": "Quest122",
+      "mQuestDescription": "Quest Start: Miane (208 100 8)",
+      "mQuestCompleteScores": [
         7
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Find a horse near the outskirts of the Mesa, southeast of the Crystal Crown. (x: 398, z: 283) Return to Miane with the horse",
         "2": "This score is got when you walk over the pressure plate near Miane with the first horse breed. Talk to Miane",
@@ -2486,16 +2486,16 @@
       }
     },
     {
-      "questName": "Dealbreaker",
-      "questNumber": "Quest123",
-      "questDescription": "Quest Start: Safar (222 95 30)",
-      "questCompleteScores": [
+      "mQuestName": "Dealbreaker",
+      "mQuestNumber": "Quest123",
+      "mQuestDescription": "Quest Start: Safar (222 95 30)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Merchants Woe"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Safar",
         "2": "Head to the client’s house (x: 192, z: 168) and find the basement access. Deal with what is inside and find a book",
@@ -2505,17 +2505,17 @@
       }
     },
     {
-      "questName": "Unmasked",
-      "questNumber": "Quest124",
-      "questDescription": "Quest Start: Vargos (-740 83 1337)",
-      "questCompleteScores": [
+      "mQuestName": "Unmasked",
+      "mQuestNumber": "Quest124",
+      "mQuestDescription": "Quest Start: Vargos (-740 83 1337)",
+      "mQuestCompleteScores": [
         19
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Kingdom of Lies",
         "R is for Reprisal"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to either Brandy (-1823 88 2403) or Vargos (-1826 87 2403) and go through the clickable dialog.",
         "2": "Speak to Masked Ridnan (-1823 88 2407)",
@@ -2533,14 +2533,14 @@
       }
     },
     {
-      "questName": "Fishy Business",
-      "questNumber": "Quest125",
-      "questDescription": "Quest Start: Lincoln (-798 87 1435)",
-      "questCompleteScores": [
+      "mQuestName": "Fishy Business",
+      "mQuestNumber": "Quest125",
+      "mQuestDescription": "Quest Start: Lincoln (-798 87 1435)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head to the Sunken Ship and be near the chest containing the Salmon when it is opened.",
         "2": "Return to Lincoln with the Salmon",
@@ -2550,14 +2550,14 @@
       }
     },
     {
-      "questName": "A Well Deserved Rest",
-      "questNumber": "Quest126",
-      "questDescription": "Quest Start: Sam Ludvic (-1599 106 1007)",
-      "questCompleteScores": [
+      "mQuestName": "A Well Deserved Rest",
+      "mQuestNumber": "Quest126",
+      "mQuestDescription": "Quest Start: Sam Ludvic (-1599 106 1007)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Squire Tano",
         "2": "Talk to Sam Ludvic",
@@ -2576,14 +2576,14 @@
       }
     },
     {
-      "questName": "Out With a Bang",
-      "questNumber": "Quest127",
-      "questDescription": "Quest Start: Ebonee (-1760 132 -51)",
-      "questCompleteScores": [
+      "mQuestName": "Out With a Bang",
+      "mQuestNumber": "Quest127",
+      "mQuestDescription": "Quest Start: Ebonee (-1760 132 -51)",
+      "mQuestCompleteScores": [
         8
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Find a way into the student’s quarters and find Ebonee’s wand. Be near the chest when it is opened.",
         "2": "Return to Ebonee with the wand",
@@ -2596,14 +2596,14 @@
       }
     },
     {
-      "questName": "Sunken Feeling",
-      "questNumber": "Quest128",
-      "questDescription": "Quest Start: Cropmaster Afondo (-715 95 1439)",
-      "questCompleteScores": [
+      "mQuestName": "Sunken Feeling",
+      "mQuestNumber": "Quest128",
+      "mQuestDescription": "Quest Start: Cropmaster Afondo (-715 95 1439)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 through 2": "Speak to Afondo",
         "3": "If you had no items on you, you would already be in the farm, if not make sure you have no items then talk to Afondo to get to the farm. Once in the farm you need to find three dissolver items and take them to three coral heads. Horn Coral Dissolver (-717 42 1499) \u003e Horn Coral (-728 27 1519) Tube Coral Dissolver (-717 42 1563) \u003e Tube Coral (-754 24 1536) Fire Coral Dissolver (-778 46 1509) \u003e Fire Coral (-784 37 1543) Then leave the farm (Exit: -694 47 1531) and talk to Alfondo",
@@ -2612,16 +2612,16 @@
       }
     },
     {
-      "questName": "A Lost Cause",
-      "questNumber": "Quest129",
-      "questDescription": "Quest Start: Amina (323 47 764)",
-      "questCompleteScores": [
+      "mQuestName": "A Lost Cause",
+      "mQuestNumber": "Quest129",
+      "mQuestDescription": "Quest Start: Amina (323 47 764)",
+      "mQuestCompleteScores": [
         8
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Dealbreaker"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Hassan (use plates near x: 463, z:375). There is a water timing puzzle that I am horrible at.",
         "2": "Save Hassan from the ambush, or just talk to him and make him think you did. He will be fine, maybe.",
@@ -2634,18 +2634,18 @@
       }
     },
     {
-      "questName": "Bleeding Proof",
-      "questNumber": "Quest130",
-      "questDescription": "Quest Start: Quest115 of 5 - Wilhelm, Chillwind Diplomat (-1295 130 467) \u0026amp; Quest115 of 6 - Torren, Ishnir Diplomat (-150 167 417)",
-      "questCompleteScores": [
+      "mQuestName": "Bleeding Proof",
+      "mQuestNumber": "Quest130",
+      "mQuestDescription": "Quest Start: Quest115 of 5 - Wilhelm, Chillwind Diplomat (-1295 130 467) \u0026amp; Quest115 of 6 - Torren, Ishnir Diplomat (-150 167 417)",
+      "mQuestCompleteScores": [
         19,
         39
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "An Unlikely Partnership",
         "The Foreign Soldier"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Start of Ishnir path, gotten shortly before Izzy is summoned in",
         "2": "Talk to Izzy in Rahkeri",
@@ -2688,16 +2688,16 @@
       }
     },
     {
-      "questName": "Treasure of the Past",
-      "questNumber": "Quest131",
-      "questDescription": "Quest Start: Zulamar (391 57 730)",
-      "questCompleteScores": [
+      "mQuestName": "Treasure of the Past",
+      "mQuestNumber": "Quest131",
+      "mQuestDescription": "Quest Start: Zulamar (391 57 730)",
+      "mQuestCompleteScores": [
         8
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Lost Empire"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head to Sunken Tomb, go to the lava area under the PoI hit the button at -315 14 81. This sets score to 2. If you leave the area and return to the puzzle room with a score of 3 to 6 your score is reset to 2",
         "2": "Walk forward in the puzzle room.",
@@ -2710,17 +2710,17 @@
       }
     },
     {
-      "questName": "Kingdom of Lies",
-      "questNumber": "Quest132",
-      "questDescription": "Quest Start: Torren, Ishnir Diplomat (-150 167 417)",
-      "questCompleteScores": [
+      "mQuestName": "Kingdom of Lies",
+      "mQuestNumber": "Quest132",
+      "mQuestDescription": "Quest Start: Torren, Ishnir Diplomat (-150 167 417)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Bleeding Proof",
         "Rapacity"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Torren, Ishnir Diplomat (-150 167 417)",
         "2": "Speak to Foreman Boris (184,110,43), then make your way through the mine and speak to Sani (-1393 168 -1254) to get a pickaxe.",
@@ -2744,17 +2744,17 @@
       }
     },
     {
-      "questName": "R is for Reprisal",
-      "questNumber": "Quest133",
-      "questDescription": "Quest Start: Wilhelm, Chillwind Diplomat (-1295 130 467)",
-      "questCompleteScores": [
+      "mQuestName": "R is for Reprisal",
+      "mQuestNumber": "Quest133",
+      "mQuestDescription": "Quest Start: Wilhelm, Chillwind Diplomat (-1295 130 467)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Bleeding Proof",
         "Rapacity"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Head to the Wispervale Library and find the “beautiful lady” (-1829 131 -79) which is a book. This gives you the tag Q133Belladonna. Talk to Belladonna (-1720 135 -77)",
         "2: 2 and 3": "Speak to Belladonna and agree to help teleporting into an instance",
@@ -2776,17 +2776,17 @@
       }
     },
     {
-      "questName": "Mirrored Egos",
-      "questNumber": "Quest134",
-      "questDescription": "Quest Start: Luc (-1814 161 -34)",
-      "questCompleteScores": [
+      "mQuestName": "Mirrored Egos",
+      "mQuestNumber": "Quest134",
+      "mQuestDescription": "Quest Start: Luc (-1814 161 -34)",
+      "mQuestCompleteScores": [
         12
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Gem of Ishnir",
         "Harmonic Convergence"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Unstarted, speak to Luc (-1814/-34)",
         "2: 2 through 3": "Speak to Belladonna (-1720/-77)",
@@ -2801,20 +2801,20 @@
       }
     },
     {
-      "questName": "An Unlikely Partnership",
-      "questNumber": "Quest136",
-      "questDescription": "Quest Start: Tiffy (-817 81 1326)",
-      "questCompleteScores": [
+      "mQuestName": "An Unlikely Partnership",
+      "mQuestNumber": "Quest136",
+      "mQuestDescription": "Quest Start: Tiffy (-817 81 1326)",
+      "mQuestCompleteScores": [
         19
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Foreign Soldier and Vault of Glass Optional requirements for extra dialog A Dish to Die For",
         "Unyielding Potential Swordsage Trial",
         "A Simple Favor Assassin Trial",
         "Fishy Business",
         "1 Gloop"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Tiffy, accept the teleport, step on the pressure plates in the room you are taken to (either near -828 30 2559 or near -841 30 2559), then after a cutscene sit in the chair at -833 54 2569. Continue with cutscenes until another teleport.",
         "2: 2 through 3": "Speak to the glass agent without a custom head (-762 97 2575) Tiffy can get them there if they left the meeting",
@@ -2837,12 +2837,12 @@
       }
     },
     {
-      "questName": "WOOF",
-      "questNumber": "Quest137",
-      "questDescription": "Quest Start: Aquamarine (281 122 40)",
-      "questCompleteScores": [],
-      "questReqs": [],
-      "questValues": {
+      "mQuestName": "WOOF",
+      "mQuestNumber": "Quest137",
+      "mQuestDescription": "Quest Start: Aquamarine (281 122 40)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Aquamarine",
         "2: 2 through 23": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
@@ -2850,12 +2850,12 @@
       }
     },
     {
-      "questName": "Bloody Banquet",
-      "questNumber": "Quest139",
-      "questDescription": "Quest Start: Bethenny (-1489 101 923)",
-      "questCompleteScores": [],
-      "questReqs": [],
-      "questValues": {
+      "mQuestName": "Bloody Banquet",
+      "mQuestNumber": "Quest139",
+      "mQuestDescription": "Quest Start: Bethenny (-1489 101 923)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Guard Timmeh (-1494 98 943) to head to the banquet and speak to Countess Corinne (-4249 135 660)",
         "2": "Speak to Susan, Tirich, Jared, Jerry, and Alyssa (each gives a tag), then speak to Countess Corinne",
@@ -2879,16 +2879,16 @@
       }
     },
     {
-      "questName": "The Rooster Crows at Midnight",
-      "questNumber": "Quest140",
-      "questDescription": "Quest Start: Nightroost, Holy Royal Reserves (Vault)",
-      "questCompleteScores": [
+      "mQuestName": "The Rooster Crows at Midnight",
+      "mQuestNumber": "Quest140",
+      "mQuestDescription": "Quest Start: Nightroost, Holy Royal Reserves (Vault)",
+      "mQuestCompleteScores": [
         9
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Wizards Apprentice"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0: 0 through 2": "Open chest and take note",
         "2: 2 through 3": "Open passageway",
         "3: 3 through 5": "Akema Monologue",
@@ -2899,16 +2899,16 @@
       }
     },
     {
-      "questName": "Flock and Key",
-      "questNumber": "Quest141",
-      "questDescription": "Quest Start: Akema (-1645 124 -1331) (Hit the three buttons in the house at -1410 103 588)",
-      "questCompleteScores": [
+      "mQuestName": "Flock and Key",
+      "mQuestNumber": "Quest141",
+      "mQuestDescription": "Quest Start: Akema (-1645 124 -1331) (Hit the three buttons in the house at -1410 103 588)",
+      "mQuestCompleteScores": [
         8
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Rooster Crows at Midnight"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Find an island around -857 82 500, approach the gate",
         "2": "Solve the sword puzzle",
@@ -2919,17 +2919,17 @@
       }
     },
     {
-      "questName": "The Stone Ocean",
-      "questNumber": "Quest142",
-      "questDescription": "Quest Start: Fred (-480 10 -396)",
-      "questCompleteScores": [
+      "mQuestName": "The Stone Ocean",
+      "mQuestNumber": "Quest142",
+      "mQuestDescription": "Quest Start: Fred (-480 10 -396)",
+      "mQuestCompleteScores": [
         21
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Freds Bizarre Adventure",
         "R1Bonus and Fred cleared"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1: 1 to 5": "Speak to Fred (-480 10 -396)",
         "6: 6 and 7": "Travel to the end of the Cave of Secrets in Region 1 (you can go out of Willow’s lobby to get there quickly). Right click on the Silvic Instrument, and either fight the mobs that result, or escape, or die.",
@@ -2943,14 +2943,14 @@
       }
     },
     {
-      "questName": "Scientists of Steelmeld I",
-      "questNumber": "Quest143",
-      "questDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
-      "questCompleteScores": [
+      "mQuestName": "Scientists of Steelmeld I",
+      "mQuestNumber": "Quest143",
+      "mQuestDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
+      "mQuestCompleteScores": [
         13
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Bermuda with an empty inventory, go to her lab, speak to her in her lab",
         "2": "Complete Puzzle 1, step on pressure plate",
@@ -2968,15 +2968,15 @@
       }
     },
     {
-      "questName": "Pyre and Prejudice",
-      "questNumber": "Quest144",
-      "questDescription": "Quest Start: Agricultural Engineer Nitreia (-639 14 -465)",
-      "questCompleteScores": [
+      "mQuestName": "Pyre and Prejudice",
+      "mQuestNumber": "Quest144",
+      "mQuestDescription": "Quest Start: Agricultural Engineer Nitreia (-639 14 -465)",
+      "mQuestCompleteScores": [
         18,
         39
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "1: 1 through 4": "Speaking to Nitreia (Dumb)",
         "5": "Tasked with getting Ash from Scorch Valley",
         "6": "Got Ash from Scorch Valley (score set when close to chest inside POI)",
@@ -3002,16 +3002,16 @@
       }
     },
     {
-      "questName": "The Olive Branch",
-      "questNumber": "Quest145",
-      "questDescription": "Quest Start: Bhairavi (-543 6 -528)",
-      "questCompleteScores": [
+      "mQuestName": "The Olive Branch",
+      "mQuestNumber": "Quest145",
+      "mQuestDescription": "Quest Start: Bhairavi (-543 6 -528)",
+      "mQuestCompleteScores": [
         20
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Unmasked"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Bhairavi",
         "2": "Speak to Wexley (-622 25 557)",
@@ -3032,20 +3032,20 @@
       }
     },
     {
-      "questName": "Borrowed Time",
-      "questNumber": "Quest146",
-      "questDescription": "Quest Start: Vargos (-739 83 1337)",
-      "questCompleteScores": [
+      "mQuestName": "Borrowed Time",
+      "mQuestNumber": "Quest146",
+      "mQuestDescription": "Quest Start: Vargos (-739 83 1337)",
+      "mQuestCompleteScores": [
         16
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "A Study in Crimson Part 2",
         "The Olive Branch",
         "Here There Be Dragons",
         "Treasures for the Future",
         "and Completion of the Celsian Isles Monument"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
         "2": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
@@ -3066,16 +3066,16 @@
       }
     },
     {
-      "questName": "The Tomb of Time",
-      "questNumber": "Quest147",
-      "questDescription": "Quest Start: Vargos (-739 83 1337)",
-      "questCompleteScores": [
+      "mQuestName": "The Tomb of Time",
+      "mQuestNumber": "Quest147",
+      "mQuestDescription": "Quest Start: Vargos (-739 83 1337)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Borrowed Time"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Travel to the collapsed cavern under the Silver Tower.",
         "2": "Talk to your allies at the quest location (-2290 178 -1170), go deeper into the caves.",
@@ -3090,16 +3090,16 @@
       }
     },
     {
-      "questName": "Alrics Legacy",
-      "questNumber": "Quest148",
-      "questDescription": "Quest Start: Listener (-1264 103 536)",
-      "questCompleteScores": [
+      "mQuestName": "Alrics Legacy",
+      "mQuestNumber": "Quest148",
+      "mQuestDescription": "Quest Start: Listener (-1264 103 536)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Unmasked"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Enter Alric’s Rift (-1485 0 146) and solve the puzzle inside",
         "2: 2 through 4": "Talk to Alric in the Rift (-4203 120 358)",
@@ -3108,16 +3108,16 @@
       }
     },
     {
-      "questName": "Scientists of Steelmeld II",
-      "questNumber": "Quest149",
-      "questDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
-      "questCompleteScores": [
+      "mQuestName": "Scientists of Steelmeld II",
+      "mQuestNumber": "Quest149",
+      "mQuestDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
+      "mQuestCompleteScores": [
         13
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Scientists of Steelmeld I"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Bermuda, agree to go to the lab for your second adventure. Talk to Bermuda in the room you are teleported to",
         "2: 2 through 11": "Go through test chambers. Each chamber increases your score by 1. You can return to the chamber you left off on by reentering the area via Bermuda and then reentering the test chambers",
@@ -3126,17 +3126,17 @@
       }
     },
     {
-      "questName": "Here There Be Dragons",
-      "questNumber": "Quest150",
-      "questDescription": "Quest Start: Izzy (-739 83 1334)",
-      "questCompleteScores": [
+      "mQuestName": "Here There Be Dragons",
+      "mQuestNumber": "Quest150",
+      "mQuestDescription": "Quest Start: Izzy (-739 83 1334)",
+      "mQuestCompleteScores": [
         22,
         23
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Olive Branch"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Izzy",
         "2": "Speak to Captain Indigo",
@@ -3155,17 +3155,17 @@
       }
     },
     {
-      "questName": "The End Chimes",
-      "questNumber": "Quest151",
-      "questDescription": "Quest Start: Drunken Sailor (-821 93 1367)",
-      "questCompleteScores": [
+      "mQuestName": "The End Chimes",
+      "mQuestNumber": "Quest151",
+      "mQuestDescription": "Quest Start: Drunken Sailor (-821 93 1367)",
+      "mQuestCompleteScores": [
         3
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "None",
         "The Grasp of Avarice is recommended"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Get a Hollow Chime from the Sunken Ship (-1131 57 1601). Defeat Varcosa within Purple with it in your inventory. Head to world’s end and right-click the Tide’s Chime you get after beating Varcosa",
         "2": "Speak to Rhygfar (-91 96 3328)",
@@ -3173,16 +3173,16 @@
       }
     },
     {
-      "questName": "Depths Charge",
-      "questNumber": "Quest152",
-      "questDescription": "Quest Start: Rhygfar (-91 96 3328 on the Black Mist)",
-      "questCompleteScores": [
+      "mQuestName": "Depths Charge",
+      "mQuestNumber": "Quest152",
+      "mQuestDescription": "Quest Start: Rhygfar (-91 96 3328 on the Black Mist)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The End Chimes"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Rhygfar",
         "2": "Sink to the bottom of the sea near the anchor, find a boarded up cave, click for dialog, agree to go in. Solve the puzzle inside.",
@@ -3192,19 +3192,19 @@
       }
     },
     {
-      "questName": "A GLich in the System",
-      "questNumber": "Quest153",
-      "questDescription": "Quest Start: Ancev (-740 4 -177)",
-      "questCompleteScores": [
+      "mQuestName": "A GLich in the System",
+      "mQuestNumber": "Quest153",
+      "mQuestDescription": "Quest Start: Ancev (-740 4 -177)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Gem of Ishnir",
         "Freds Bizarre Adventure",
         "Teal 1",
         "Fred 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted, Pick “You know about Doorways?”",
         "1": "Speak to Ancev",
         "2: 2 through 4": "Speak to Fred (-717 9 -169)",
@@ -3220,18 +3220,18 @@
       }
     },
     {
-      "questName": "Treasure for the Future",
-      "questNumber": "Quest154",
-      "questDescription": "Quest Start: Zeroc (-761 81 1344)",
-      "questCompleteScores": [
+      "mQuestName": "Treasure for the Future",
+      "mQuestNumber": "Quest154",
+      "mQuestDescription": "Quest Start: Zeroc (-761 81 1344)",
+      "mQuestCompleteScores": [
         15
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Treasure of the Past",
         "Xenophobia",
         "Lime 1"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted, Pick “Zulamar said you could tell me more about the remnants of the Viridian Empire.”",
         "1": "Speak to the Prison Guard in the Mistport Brig (-809 87 1292)",
         "2: 2 through 3": "Speak to First Mate Jones (-761 81 1344)",
@@ -3248,16 +3248,16 @@
       }
     },
     {
-      "questName": "Ring Around the Rose Fast",
-      "questNumber": "Track Quest",
-      "questDescription": "Quest Start: Researcher Jennis (-820 96 1332)",
-      "questCompleteScores": [
+      "mQuestName": "Ring Around the Rose Fast",
+      "mQuestNumber": "Track Quest",
+      "mQuestDescription": "Quest Start: Researcher Jennis (-820 96 1332)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Voyage of Discovery"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Continue talking to Jennis",
         "2": "Continue talking to Jennis, get teleported to the fake teleport hub area at (-645 34 1375)",
@@ -3275,14 +3275,14 @@
       }
     },
     {
-      "questName": "Quest201",
-      "questNumber": "His Faithful Servant Shrines Quest",
-      "questDescription": "Quest Start: Cadeus (-746 83 1380)",
-      "questCompleteScores": [
+      "mQuestName": "Quest201",
+      "mQuestNumber": "His Faithful Servant Shrines Quest",
+      "mQuestDescription": "Quest Start: Cadeus (-746 83 1380)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Talk to Cadeus, throw Vessel of Boons and Fenian Flower into the pool and drink Harrakfar\u0027s Blessing. Talk to Cadeus again.",
         "1": "Find any Shrine besides Harrakfar\u0027s Blessing in the Architect\u0027s Ring.",
         "2": "Bring any Shrine Blessing besides Harrakfar\u0027s to Cadeus.",
@@ -3292,16 +3292,16 @@
       }
     },
     {
-      "questName": "Quest202",
-      "questNumber": "Into The Woods",
-      "questDescription": "Quest Start: Dockmaster Hromae (-471 41 -802)",
-      "questCompleteScores": [
+      "mQuestName": "Quest202",
+      "mQuestNumber": "Into The Woods",
+      "mQuestDescription": "Quest Start: Dockmaster Hromae (-471 41 -802)",
+      "mQuestCompleteScores": [
         14
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "The Tomb of Time OR Ring Around the Rose"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "-1: -1 (Don\u0027t ask why it\u0027s -1)": "Talk to Dockmaster Hromae",
         "1": "Head to the Customs Office in Galengarde (-374 80 -730)",
@@ -3321,14 +3321,14 @@
       }
     },
     {
-      "questName": "Quest203",
-      "questNumber": "A Charming Proposition",
-      "questDescription": "Quest Start: Miroku (-482 39 -816)",
-      "questCompleteScores": [
+      "mQuestName": "Quest203",
+      "mQuestNumber": "A Charming Proposition",
+      "mQuestDescription": "Quest Start: Miroku (-482 39 -816)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Miroku",
         "2": "Pick one of the Charms from Miroku",
@@ -3338,16 +3338,16 @@
       }
     },
     {
-      "questName": "Quest204",
-      "questNumber": "Of Mushrooms and Magic",
-      "questDescription": "Quest Start: Primirium Verdanne (-317 183 -663)",
-      "questCompleteScores": [
+      "mQuestName": "Quest204",
+      "mQuestNumber": "Of Mushrooms and Magic",
+      "mQuestDescription": "Quest Start: Primirium Verdanne (-317 183 -663)",
+      "mQuestCompleteScores": [
         16
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Into The Woods"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Talk to Verdanne",
         "2": "Only appears if you choose [I\u0027d like to prepare for a bit.] Talk to Verdanne again.",
@@ -3368,14 +3368,14 @@
       }
     },
     {
-      "questName": "Quest205",
-      "questNumber": "Cure For Insomnia Gallery of Fear Quest",
-      "questDescription": "Quest Start: Ephesius (-410 175 -123)",
-      "questCompleteScores": [
+      "mQuestName": "Quest205",
+      "mQuestNumber": "Cure For Insomnia Gallery of Fear Quest",
+      "mQuestDescription": "Quest Start: Ephesius (-410 175 -123)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [],
-      "questValues": {
+      "mQuestReqs": [],
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Continue Speaking to Ephesius",
         "2": "Find the teachings of Oneiromancy in the Library of New Antium (-496 176 -116) and bring it to Ephesius",
@@ -3391,16 +3391,16 @@
       }
     },
     {
-      "questName": "Quest206",
-      "questNumber": "Wolf in Witchs Clothing Blue Wool Quest",
-      "questDescription": "Quest Start: Primirium Conquort (-311 183 -663)",
-      "questCompleteScores": [
+      "mQuestName": "Quest206",
+      "mQuestNumber": "Wolf in Witchs Clothing Blue Wool Quest",
+      "mQuestDescription": "Quest Start: Primirium Conquort (-311 183 -663)",
+      "mQuestCompleteScores": [
         11
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Of Mushrooms and Magic  The Tomb of Time"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Elder Lytania (-354 114 -159)",
         "2": "Continue speaking to Lytania",
@@ -3416,16 +3416,16 @@
       }
     },
     {
-      "questName": "Quest207",
-      "questNumber": "Unraveled Masqueraders Ruin Quest",
-      "questDescription": "Quest Start: Bhairavi (-279 87 -652)",
-      "questCompleteScores": [
+      "mQuestName": "Quest207",
+      "mQuestNumber": "Unraveled Masqueraders Ruin Quest",
+      "mQuestDescription": "Quest Start: Bhairavi (-279 87 -652)",
+      "mQuestCompleteScores": [
         6
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Witch in Wolfs Clothing"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Find the Masquerader\u0027s Ruin Lobby in Shadowcast Bastille (-95 35 -467). Talk to Bhairavi inside of the lobby.",
         "2": "Look at the cool cutscene",
@@ -3436,18 +3436,18 @@
       }
     },
     {
-      "questName": "Quest208",
-      "questNumber": "Praetorer Strike",
-      "questDescription": "Quest Start: The Praetor (-462 192 -65)",
-      "questCompleteScores": [
+      "mQuestName": "Quest208",
+      "mQuestNumber": "Praetorer Strike",
+      "mQuestDescription": "Quest Start: The Praetor (-462 192 -65)",
+      "mQuestCompleteScores": [
         6,
         7,
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Cure For Insomnia"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Continue discussion with The Praetor.",
         "2": "Further discussion with The Praetor.",
@@ -3462,16 +3462,16 @@
       }
     },
     {
-      "questName": "Quest209",
-      "questNumber": "Scientists of Steelmeld III PORTAL Quest",
-      "questDescription": "Quest Start: Bermuda (-229 46 -626)",
-      "questCompleteScores": [
+      "mQuestName": "Quest209",
+      "mQuestNumber": "Scientists of Steelmeld III PORTAL Quest",
+      "mQuestDescription": "Quest Start: Bermuda (-229 46 -626)",
+      "mQuestCompleteScores": [
         5
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Scientists of Steelmeld II"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Unstarted",
         "1": "Go into the cave near Bermuda, kill the G.O.L.E.M. and retrieve the Strange Implement",
         "2": "Bring Strange Implement to Bermuda",
@@ -3481,16 +3481,16 @@
       }
     },
     {
-      "questName": "Quest210",
-      "questNumber": "Keeper Agents",
-      "questDescription": "Quest Start: The High Priest (-418 174 -129)",
-      "questCompleteScores": [
+      "mQuestName": "Quest210",
+      "mQuestNumber": "Keeper Agents",
+      "mQuestDescription": "Quest Start: The High Priest (-418 174 -129)",
+      "mQuestCompleteScores": [
         10
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Praetorer Strike"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Quest Unstarted",
         "1": "Investigate suspects listed by the High Priest: Lanora (-444 183 -50), Gorm (-476 181 -75), Garmon (-384 171 -126), Doctor Cairn (-485 176 -138). Tags are given after the player speaks with each: Quest210Lanora, Quest210Gorm, Quest210Garmon, Quest210Cairn.",
         "2": "Return to the Priest after investigations. Tags are cleared following this step.",
@@ -3505,18 +3505,18 @@
       }
     },
     {
-      "questName": "Quest211",
-      "questNumber": "Mechs Machina Brown Wool Quest",
-      "questDescription": "Quest Start: Machine God\u0027s Herald (-446 181 -86) - Replaces quest guide at Quest210 \u003d 10.",
-      "questCompleteScores": [
+      "mQuestName": "Quest211",
+      "mQuestNumber": "Mechs Machina Brown Wool Quest",
+      "mQuestDescription": "Quest Start: Machine God\u0027s Herald (-446 181 -86) - Replaces quest guide at Quest210 \u003d 10.",
+      "mQuestCompleteScores": [
         4,
         9
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Keeper Agents",
         "Completion of the Blue Wool Dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Quest Unstarted.",
         "1": "Report to The High Priest and the Praetor.",
         "2": "Go speak to Aregentina. (Blue Epic charms trader)",
@@ -3530,30 +3530,30 @@
       }
     },
     {
-      "questName": "Quest212",
-      "questNumber": "Unconventional Methods",
-      "questDescription": "Quest Start: The High Priest (-418 174 -129)",
-      "questCompleteScores": [],
-      "questReqs": [
+      "mQuestName": "Quest212",
+      "mQuestNumber": "Unconventional Methods",
+      "mQuestDescription": "Quest Start: The High Priest (-418 174 -129)",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [
         "Unraveled",
         "Mechs Machina",
         "Completion of Brown Dungeon"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": ""
       }
     },
     {
-      "questName": "Quest213",
-      "questNumber": "Sporetal Combat Godspore Quest",
-      "questDescription": "Quest Start: Primirium Tybale (-316 182 -672)",
-      "questCompleteScores": [
+      "mQuestName": "Quest213",
+      "mQuestNumber": "Sporetal Combat Godspore Quest",
+      "mQuestDescription": "Quest Start: Primirium Tybale (-316 182 -672)",
+      "mQuestCompleteScores": [
         12
       ],
-      "questReqs": [
+      "mQuestReqs": [
         "Unraveled"
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": "Quest Unstarted.",
         "1": "Speak to Martine (-307 76 -608) at the Arboreal Society building.",
         "2": "Continue speaking with Martine.",
@@ -3570,14 +3570,14 @@
       }
     },
     {
-      "questName": "Quest214",
-      "questNumber": "",
-      "questDescription": "Quest Start:",
-      "questCompleteScores": [],
-      "questReqs": [
+      "mQuestName": "Quest214",
+      "mQuestNumber": "",
+      "mQuestDescription": "Quest Start:",
+      "mQuestCompleteScores": [],
+      "mQuestReqs": [
         ""
       ],
-      "questValues": {
+      "mQuestValues": {
         "0": ""
       }
     }
