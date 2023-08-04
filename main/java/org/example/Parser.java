@@ -4,16 +4,20 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.*;
 
 public class Parser {
     public static int parseWikiToFile(String username, String password, String filePath, boolean printDebug) {
@@ -309,6 +313,10 @@ public class Parser {
                     break;
             }
         }
+        // If there is 0 or 1 value, note possible missing info:
+        if (questValueMap.isEmpty() || questValueMap.size() == 1) {
+            questValueMap.put("Note: possible missing info - please check wiki @ https://wiki.playmonumenta.com/moderating/quest-scores", "");
+        }
         // Return HashMap
         return (questValueMap);
     }
@@ -363,8 +371,8 @@ public class Parser {
             // Test if value is a quest completion score:
             // Req 1:
             if (value.contains("quest complete")) {
-                String key = entry.getKey().trim();
-                // Convert string to number:
+                // Split the string before ':', then conver to number:
+                String key = entry.getKey().split(":")[0].trim();
                 if (key.matches("\\d+")) {
                     req1.add(Integer.parseInt(key));
                 }
@@ -372,7 +380,7 @@ public class Parser {
             }
             // Req 2:
             if (value.contains("quest") && value.contains("complete")) {
-                String key = entry.getKey().trim();
+                String key = entry.getKey().split(":")[0].trim();
                 // Convert string to number:
                 if (key.matches("\\d+")) {
                     req2.add(Integer.parseInt(key));
@@ -381,7 +389,7 @@ public class Parser {
             }
             // Req 3:
             if (value.contains("complete")) {
-                String key = entry.getKey().trim();
+                String key = entry.getKey().split(":")[0].trim();
                 // Convert string to number:
                 if (key.matches("\\d+")) {
                     req3.add(Integer.parseInt(key));

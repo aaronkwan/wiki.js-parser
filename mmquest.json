@@ -4,7 +4,9 @@
       "mQuestName": "Tutorial",
       "mQuestNumber": "Tutorial",
       "mQuestDescription": "",
-      "mQuestCompleteScores": [],
+      "mQuestCompleteScores": [
+        20
+      ],
       "mQuestReqs": [],
       "mQuestValues": {
         "10": "Spoke to Nurse Deidre",
@@ -17,25 +19,7 @@
         "17": "Finished Labs, return to Sierhaven",
         "18": "Returned to lobby, see Reginald",
         "19": "Spoke to Reginald, see Sybil",
-        "20": "Spoke to Sybil to end Tutorial"
-      }
-    },
-    {
-      "mQuestName": "A Crown of Topaz",
-      "mQuestNumber": "Quest01",
-      "mQuestDescription": "Quest Start: Aimee (-761 106 22)",
-      "mQuestCompleteScores": [
-        6
-      ],
-      "mQuestReqs": [],
-      "mQuestValues": {
-        "0": "Unstarted",
-        "1": "Speaking to Aimee for the first time",
-        "2": "Speaking to Aimee for the first time",
-        "3": "Speaking to Aimee for the first time",
-        "4": "Speaking to Aimee for the first time",
-        "5": "Returned the Topaz / Speak to Aimee",
-        "6": "Quest Complete"
+        "20": "Spoke to Sybil to end Tutorial. Quest Complete."
       }
     },
     {
@@ -45,18 +29,22 @@
       "mQuestCompleteScores": [
         13
       ],
-      "mQuestReqs": [
-        "A Crown of Topaz"
-      ],
+      "mQuestReqs": [],
       "mQuestValues": {
-        "6": "Unstarted",
-        "7": "Speaking to Aimee to receive quest",
-        "8": "Speaking to Aimee to receive quest",
-        "9": "Speaking to Aimee to receive quest",
-        "10": "Speaking to Aimee to receive quest",
-        "11": "Speaking to Aimee to receive quest",
-        "12": "Returned jewels / speak to Aimee",
-        "13": "Quest Complete"
+        "0": "Unstarted",
+        "1": "Spoken to Aimee, head to Northern mineshaft poi",
+        "2": "Entered the poi and got ambushed by the elite. Defeat it.",
+        "3": "Defeated elite, head down the mineshaft to the tp to Southern Mine poi",
+        "4": "Obtained the Onyx from Southern Mine, head back to Aimee",
+        "5": "Spoken to Aimee, head down to her basement and complete the puzzle",
+        "6": "Puzzle complete, speak to Aimee",
+        "7": "Unused legacy scores",
+        "8": "Unused legacy scores",
+        "9": "Unused legacy scores",
+        "10": "Unused legacy scores",
+        "11": "Unused legacy scores",
+        "12": "Unused legacy scores",
+        "13": "Quest complete"
       }
     },
     {
@@ -92,22 +80,26 @@
       "mQuestReqs": [],
       "mQuestValues": {
         "0": "Unstarted",
-        "1": "Speaking to Vargos",
-        "2": "Speaking to Vargos",
-        "3": "Speaking to Vargos",
-        "4": "Speaking to Vargos",
-        "5": "Speaking to Vargos",
-        "6": "Speaking to Vargos",
-        "7": "Speaking to Vargos",
-        "8": "Speaking to Vargos",
-        "9": "Tasked to find Ezariah\u0027s notes",
-        "10": "Returned notes to Vargos",
-        "11": "Tasked to go to the office on the roof",
-        "-4: -4 (Yes, negative. Don’t ask)": "Puzzle done, but dc’d before commands finished. Return to Vargos to get to 13 or redo puzzle to get to -5",
-        "-5: -5 (Yes, negative. Don\u0027t ask)": "Completed puzzle on roof / Return to Vargos",
-        "13": "Tasked to find Hermy (-320, 92, 340)",
-        "14": "Got gloop from witch’s village (-390, 95, 400) and gave them to Hermy",
-        "15": "Received translated notes from Hermy",
+        "1": "Spoken to Vargos downstairs, head up to his office",
+        "2": "Find Ezariah\u0027s notes in Mage Tower",
+        "3": "Found the notes, head back to Vargos",
+        "4": "Tasked to go find Bhairavi in Nyr",
+        "5": "Tasked to go find Bhairavi in Nyr",
+        "6": "Tasked to go find Bhairavi in Nyr",
+        "7": "Head down to Bhairavi\u0027s basement and complete the lever puzzle",
+        "8": "Puzzle completed, time to head back to Vargos for the last time",
+        "9": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "10": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "11": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "12": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "13": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "14": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "15": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "16": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "17": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "18": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "19": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
+        "20": "Unused legacy scores. Set Quest03 to 0 if player is at this.",
         "21": "Quest Complete"
       }
     },
@@ -116,7 +108,7 @@
       "mQuestNumber": "Quest04",
       "mQuestDescription": "Quest Start: Chest (180 95 -79)",
       "mQuestCompleteScores": [
-        1
+        6
       ],
       "mQuestReqs": [
         "Mages Legacy",
@@ -124,8 +116,8 @@
         "a Carved Staff in inventory can be found in starting chest"
       ],
       "mQuestValues": {
-        "0": "Unstarted; decryption puzzle not completed",
-        "1": "Decryption puzzle completed; quest may now be started",
+        "0": "Unstarted; Mage\u0027s Legacy not yet complete",
+        "1": "Mage\u0027s Legacy complete; quest may now be started",
         "2": "Quest started; Take a Carved Staff to the Water Shrine or Amplified Water Shrine and step on the pressure plate (-263 93 -36)",
         "3": "Take a Water Staff to the Earth Shrine or Amplified Earth Shrine and step on the pressure plate (284 64 219)",
         "4": "Take a Mud Staff to the Fire Shrine or Amplified Fire Shrine and step on the pressure plate (-255 93 134)",
@@ -138,7 +130,9 @@
       "mQuestName": "The Staff",
       "mQuestNumber": "Quest04",
       "mQuestDescription": "Quest Start: Chest (180 95 -79)",
-      "mQuestCompleteScores": [],
+      "mQuestCompleteScores": [
+        12
+      ],
       "mQuestReqs": [
         "Black Willows score of 1 or higher",
         "The Staff Quest04 of 6",
@@ -356,7 +350,9 @@
       "mQuestName": "Siege of Highwatch",
       "mQuestNumber": "Quest13",
       "mQuestDescription": "Quest Start: Commander Haynes (1198 131 -106)",
-      "mQuestCompleteScores": [],
+      "mQuestCompleteScores": [
+        15
+      ],
       "mQuestReqs": [
         "Sons of the Forest",
         "The Plague"
@@ -555,16 +551,6 @@
       }
     },
     {
-      "mQuestName": "The Alchemy Labs",
-      "mQuestNumber": "Quest22 RETIRED QUEST",
-      "mQuestDescription": "Quest Start: Sir Reginald (-749 94 -83)",
-      "mQuestCompleteScores": [],
-      "mQuestReqs": [],
-      "mQuestValues": {
-        "2": "Automatically set upon doing Labs in the tutorial."
-      }
-    },
-    {
       "mQuestName": "Winds of War",
       "mQuestNumber": "Quest23",
       "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
@@ -665,7 +651,7 @@
     },
     {
       "mQuestName": "Starrier Night",
-      "mQuestNumber": "Quest26 strap in this ones a long one",
+      "mQuestNumber": "Quest26",
       "mQuestDescription": "Quest Start: Montana (728 106 421)",
       "mQuestCompleteScores": [
         43,
@@ -788,14 +774,38 @@
     {
       "mQuestName": "Roots of the Plague",
       "mQuestNumber": "Quest29",
-      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155)",
-      "mQuestCompleteScores": [],
+      "mQuestDescription": "Quest Start: Bhairavi (-113 107 -155). Italic is Good Path, Bold is Bad Path",
+      "mQuestCompleteScores": [
+        17
+      ],
       "mQuestReqs": [
         "Beasts of Men",
         "The Plague",
         "Orange score of at least 1"
       ],
-      "mQuestValues": {}
+      "mQuestValues": {
+        "0": "Unstarted",
+        "1": "Talking to Bhairavi",
+        "2": "Talking to Bhairavi",
+        "3": "Spoke to Bhairavi / Sent to Maw",
+        "4": "Found Crystal in Maw / Return to Bhairavi",
+        "5": "Spoke to Bhairavi / Go to Laurie",
+        "6": "Speaking to Laurie",
+        "7": "Spoke to Laurie / Sneak into Farr",
+        "8": "Speaking to T\u0027Lm",
+        "9": "Spoke to T\u0027Lm / Go to Velara",
+        "9: 9 + tag \"Q29Puzzle\"": "Completed Puzzle",
+        "10": "Received Pure Crystal / Return to T\u0027Lm",
+        "11": "Spoke to T\u0027Lm / Bring Crystal to Eris",
+        "12": "Given Crystal / Go to Maw",
+        "13": "Find Flowers",
+        "14": "Given Flower to Eris / Given Crystal",
+        "15": "Entered Maw with Crystal / Find Lobby",
+        "16": "Talking to T\u0027Lm",
+        "17": "Quest Complete",
+        "18": "Post-Quest Dialogue with Bhairavi",
+        "19": "Post-Quest Dialogue with Bhairavi"
+      }
     },
     {
       "mQuestName": "Words Upon Hushed Lips",
@@ -812,7 +822,7 @@
         "1": "Speaking to Dimitri",
         "2": "Speaking to Dimitri",
         "3": "Quest given / Go to Axtan",
-        "4": "Given Axtan book to Dimitri / Go to Anthill",
+        "4": "Given Axtan book (Dust-Covered Journal at 688, 152, -283) to Dimitri / Go to Anthill",
         "5": "Given Anthill book to Dimitri / Go to Nyr Lab",
         "6": "Given Nyr Lab book to Dimitri",
         "7": "Quest Complete"
@@ -944,22 +954,23 @@
       "mQuestNumber": "Quest35",
       "mQuestDescription": "Quest Start: Buildmaster Jr. (-779 106 21)",
       "mQuestCompleteScores": [
-        11
+        12
       ],
       "mQuestReqs": [],
       "mQuestValues": {
         "0": "Unstarted",
         "1": "Speaking to Buildmaster Jr",
-        "2": "Quest given / Get tempered glass",
-        "3": "Given Glass to Jr / Get hunters arrows",
-        "4": "Given Arrows to Jr / Get ice chest",
-        "5": "Return to Jr / Fill chest",
-        "6": "Return to Jr",
-        "8": "Head to Pauline in Nyr",
-        "9": "Given package to Pauline / Return to Jr",
-        "10": "Given Receipt to Jr",
-        "11": "Quest Complete",
-        "12": "Post Quest Dialogue with Jr"
+        "2": "Quest given / Obtain the 3 requested sets of items",
+        "3": "Items returned to Buildmaster Jr, continue speaking with him",
+        "4": "Given finished package, head to Orson in the Forge",
+        "8": "Spoken to Orson, head to Melinda\u0027s house",
+        "12": "Quest complete",
+        "5": "Unused legacy scores",
+        "6": "Unused legacy scores",
+        "7": "Unused legacy scores",
+        "9": "Unused legacy scores",
+        "10": "Unused legacy scores",
+        "11": "Unused legacy scores"
       }
     },
     {
@@ -1235,13 +1246,15 @@
     {
       "mQuestName": "Casting for Help",
       "mQuestNumber": "Quest43",
-      "mQuestDescription": "Quest Start: Melinda (-890 96 189)",
+      "mQuestDescription": "Quest Start: Melinda (-614 96 12)",
       "mQuestCompleteScores": [
         6
       ],
-      "mQuestReqs": [],
+      "mQuestReqs": [
+        "Supply and Demand"
+      ],
       "mQuestValues": {
-        "0": "Unstarted/Talk to Melinda (NPC location: -890 96 189)",
+        "0": "Unstarted/Talk to Melinda (NPC location: -614 96 12)",
         "1": "Talk to Nurse Deidre",
         "2": "Collect 15 Spider Silk from the Swamp Sinkhole. Return to Nurse Deidre with them",
         "3": "Take the Cast and Crutch x2 from Nurse Deidre back to Melinda",
@@ -1696,8 +1709,8 @@
       }
     },
     {
-      "mQuestName": "A Towering Objective",
-      "mQuestNumber": "Quest103a Berserker",
+      "mQuestName": "A Towering Objective Berserker",
+      "mQuestNumber": "Quest103a",
       "mQuestDescription": "Quest Start: Drehal (129 121 725)",
       "mQuestCompleteScores": [
         100
@@ -1714,8 +1727,8 @@
       }
     },
     {
-      "mQuestName": "What Lies Within",
-      "mQuestNumber": "Quest103b Elementalist",
+      "mQuestName": "What Lies Within Elementalist",
+      "mQuestNumber": "Quest103b",
       "mQuestDescription": "Quest Start: Monk Gehri (202 85 1022)",
       "mQuestCompleteScores": [
         100
@@ -1734,8 +1747,8 @@
       }
     },
     {
-      "mQuestName": "Unyielding Potential",
-      "mQuestNumber": "Quest103c Swordsage",
+      "mQuestName": "Unyielding Potential Swordsage",
+      "mQuestNumber": "Quest103c",
       "mQuestDescription": "Quest Start: Juste (-1105 94 904)",
       "mQuestCompleteScores": [
         100
@@ -1752,8 +1765,8 @@
       }
     },
     {
-      "mQuestName": "Putrefaction and Purification",
-      "mQuestNumber": "Quest103d Paladin",
+      "mQuestName": "Putrefaction and Purification Paladin",
+      "mQuestNumber": "Quest103d",
       "mQuestDescription": "Quest Start: Artol (-1336 132 491)",
       "mQuestCompleteScores": [
         100
@@ -1770,8 +1783,8 @@
       }
     },
     {
-      "mQuestName": "Aiming For Success",
-      "mQuestNumber": "Quest103e Ranger",
+      "mQuestName": "Aiming For Success Ranger",
+      "mQuestNumber": "Quest103e",
       "mQuestDescription": "Quest Start: Hidgir (-1576 112 820)",
       "mQuestCompleteScores": [
         100
@@ -1789,8 +1802,8 @@
       }
     },
     {
-      "mQuestName": "The Doctors Orders",
-      "mQuestNumber": "Quest103f Apothecary",
+      "mQuestName": "The Doctors Orders Apothecary",
+      "mQuestNumber": "Quest103f",
       "mQuestDescription": "Quest Start: Apothecary Voraga (-1609 112 1018)",
       "mQuestCompleteScores": [
         100
@@ -1807,8 +1820,8 @@
       }
     },
     {
-      "mQuestName": "Lost in the Dark",
-      "mQuestNumber": "Quest103g Tenebrist",
+      "mQuestName": "Lost in the Dark Tenebrist",
+      "mQuestNumber": "Quest103g",
       "mQuestDescription": "Quest Start: Kard (323 49 728)",
       "mQuestCompleteScores": [
         100
@@ -1823,8 +1836,8 @@
       }
     },
     {
-      "mQuestName": "Guarding the Guarded",
-      "mQuestNumber": "Quest103h Guardian",
+      "mQuestName": "Guarding the Guarded Guardian",
+      "mQuestNumber": "Quest103h",
       "mQuestDescription": "Quest Start: Galablad (-1782 143 367)",
       "mQuestCompleteScores": [
         100
@@ -1841,8 +1854,8 @@
       }
     },
     {
-      "mQuestName": "Older Magic",
-      "mQuestNumber": "Quest103i Arcanist",
+      "mQuestName": "Older Magic Arcanist",
+      "mQuestNumber": "Quest103i",
       "mQuestDescription": "Quest Start: Shepor (-168 162 434)",
       "mQuestCompleteScores": [
         100
@@ -1859,8 +1872,8 @@
       }
     },
     {
-      "mQuestName": "A Simple Favor",
-      "mQuestNumber": "Quest103j Assassin",
+      "mQuestName": "A Simple Favor Assassin",
+      "mQuestNumber": "Quest103j",
       "mQuestDescription": "Quest Start: Venen (-830 115 1396)",
       "mQuestCompleteScores": [
         100
@@ -1878,8 +1891,8 @@
       }
     },
     {
-      "mQuestName": "Healthful Networking",
-      "mQuestNumber": "Quest103k Hierophant",
+      "mQuestName": "Healthful Networking Hierophant",
+      "mQuestNumber": "Quest103k",
       "mQuestDescription": "Quest Start: Ellen (-1510 93 656)",
       "mQuestCompleteScores": [
         100
@@ -1898,8 +1911,8 @@
       }
     },
     {
-      "mQuestName": "An Otherworldly Hunt",
-      "mQuestNumber": "Quest103l Hunter",
+      "mQuestName": "An Otherworldly Hunt Hunter",
+      "mQuestNumber": "Quest103l",
       "mQuestDescription": "Quest Start: Hunter (1 126 878)",
       "mQuestCompleteScores": [
         100
@@ -1915,8 +1928,8 @@
       }
     },
     {
-      "mQuestName": "Deaths Swiftness",
-      "mQuestNumber": "Quest103m Harbinger",
+      "mQuestName": "Deaths Swiftness Harbinger",
+      "mQuestNumber": "Quest103m",
       "mQuestDescription": "Quest Start: Ghostly Figure (202 64 508)",
       "mQuestCompleteScores": [
         100
@@ -1935,8 +1948,8 @@
       }
     },
     {
-      "mQuestName": "Life is of the Essence",
-      "mQuestNumber": "Quest103n Reaper",
+      "mQuestName": "Life is of the Essence Reaper",
+      "mQuestNumber": "Quest103n",
       "mQuestDescription": "Quest Start: Bero (-865 95 1779)",
       "mQuestCompleteScores": [
         100
@@ -2840,20 +2853,45 @@
       "mQuestName": "WOOF",
       "mQuestNumber": "Quest137",
       "mQuestDescription": "Quest Start: Aquamarine (281 122 40)",
-      "mQuestCompleteScores": [],
+      "mQuestCompleteScores": [
+        23
+      ],
       "mQuestReqs": [],
       "mQuestValues": {
         "0": "Unstarted",
         "1": "Speak to Aquamarine",
-        "2: 2 through 23": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
-        "Tag: Quest137Done": "Quest Complete (NOTE: no scoreboard value association)"
+        "2": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "3": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "4": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "5": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "6": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "7": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "8": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "9": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "10": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "11": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "12": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "13": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "14": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "15": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "16": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "17": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "18": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "19": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "20": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "21": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "22": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "23": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "23: 23 (Tag Quest137Done)": "Quest Complete"
       }
     },
     {
       "mQuestName": "Bloody Banquet",
       "mQuestNumber": "Quest139",
       "mQuestDescription": "Quest Start: Bethenny (-1489 101 923)",
-      "mQuestCompleteScores": [],
+      "mQuestCompleteScores": [
+        200
+      ],
       "mQuestReqs": [],
       "mQuestValues": {
         "0": "Unstarted",
@@ -3275,8 +3313,8 @@
       }
     },
     {
-      "mQuestName": "Quest201",
-      "mQuestNumber": "His Faithful Servant Shrines Quest",
+      "mQuestName": "His Faithful Servant Shrines Quest",
+      "mQuestNumber": "Quest201",
       "mQuestDescription": "Quest Start: Cadeus (-746 83 1380)",
       "mQuestCompleteScores": [
         5
@@ -3292,8 +3330,8 @@
       }
     },
     {
-      "mQuestName": "Quest202",
-      "mQuestNumber": "Into The Woods",
+      "mQuestName": "Into The Woods",
+      "mQuestNumber": "Quest202",
       "mQuestDescription": "Quest Start: Dockmaster Hromae (-471 41 -802)",
       "mQuestCompleteScores": [
         14
@@ -3321,8 +3359,8 @@
       }
     },
     {
-      "mQuestName": "Quest203",
-      "mQuestNumber": "A Charming Proposition",
+      "mQuestName": "A Charming Proposition",
+      "mQuestNumber": "Quest203",
       "mQuestDescription": "Quest Start: Miroku (-482 39 -816)",
       "mQuestCompleteScores": [
         5
@@ -3338,8 +3376,8 @@
       }
     },
     {
-      "mQuestName": "Quest204",
-      "mQuestNumber": "Of Mushrooms and Magic",
+      "mQuestName": "Of Mushrooms and Magic",
+      "mQuestNumber": "Quest204",
       "mQuestDescription": "Quest Start: Primirium Verdanne (-317 183 -663)",
       "mQuestCompleteScores": [
         16
@@ -3368,8 +3406,8 @@
       }
     },
     {
-      "mQuestName": "Quest205",
-      "mQuestNumber": "Cure For Insomnia Gallery of Fear Quest",
+      "mQuestName": "Cure For Insomnia Gallery of Fear Quest",
+      "mQuestNumber": "Quest205",
       "mQuestDescription": "Quest Start: Ephesius (-410 175 -123)",
       "mQuestCompleteScores": [
         10
@@ -3391,8 +3429,8 @@
       }
     },
     {
-      "mQuestName": "Quest206",
-      "mQuestNumber": "Wolf in Witchs Clothing Blue Wool Quest",
+      "mQuestName": "Wolf in Witchs Clothing Blue Wool Quest",
+      "mQuestNumber": "Quest206",
       "mQuestDescription": "Quest Start: Primirium Conquort (-311 183 -663)",
       "mQuestCompleteScores": [
         11
@@ -3416,8 +3454,8 @@
       }
     },
     {
-      "mQuestName": "Quest207",
-      "mQuestNumber": "Unraveled Masqueraders Ruin Quest",
+      "mQuestName": "Unraveled Masqueraders Ruin Quest",
+      "mQuestNumber": "Quest207",
       "mQuestDescription": "Quest Start: Bhairavi (-279 87 -652)",
       "mQuestCompleteScores": [
         6
@@ -3436,8 +3474,8 @@
       }
     },
     {
-      "mQuestName": "Quest208",
-      "mQuestNumber": "Praetorer Strike",
+      "mQuestName": "Praetorer Strike",
+      "mQuestNumber": "Quest208",
       "mQuestDescription": "Quest Start: The Praetor (-462 192 -65)",
       "mQuestCompleteScores": [
         6,
@@ -3462,8 +3500,8 @@
       }
     },
     {
-      "mQuestName": "Quest209",
-      "mQuestNumber": "Scientists of Steelmeld III PORTAL Quest",
+      "mQuestName": "Scientists of Steelmeld III PORTAL Quest",
+      "mQuestNumber": "Quest209",
       "mQuestDescription": "Quest Start: Bermuda (-229 46 -626)",
       "mQuestCompleteScores": [
         5
@@ -3481,8 +3519,8 @@
       }
     },
     {
-      "mQuestName": "Quest210",
-      "mQuestNumber": "Keeper Agents",
+      "mQuestName": "Keeper Agents",
+      "mQuestNumber": "Quest210",
       "mQuestDescription": "Quest Start: The High Priest (-418 174 -129)",
       "mQuestCompleteScores": [
         10
@@ -3505,8 +3543,8 @@
       }
     },
     {
-      "mQuestName": "Quest211",
-      "mQuestNumber": "Mechs Machina Brown Wool Quest",
+      "mQuestName": "Mechs Machina Brown Wool Quest",
+      "mQuestNumber": "Quest211",
       "mQuestDescription": "Quest Start: Machine God\u0027s Herald (-446 181 -86) - Replaces quest guide at Quest210 \u003d 10.",
       "mQuestCompleteScores": [
         4,
@@ -3530,8 +3568,8 @@
       }
     },
     {
-      "mQuestName": "Quest212",
-      "mQuestNumber": "Unconventional Methods",
+      "mQuestName": "Unconventional Methods",
+      "mQuestNumber": "Quest212",
       "mQuestDescription": "Quest Start: The High Priest (-418 174 -129)",
       "mQuestCompleteScores": [],
       "mQuestReqs": [
@@ -3540,12 +3578,13 @@
         "Completion of Brown Dungeon"
       ],
       "mQuestValues": {
-        "0": ""
+        "0": "",
+        "Note: possible missing info - please check wiki @ https://wiki.playmonumenta.com/moderating/quest-scores": ""
       }
     },
     {
-      "mQuestName": "Quest213",
-      "mQuestNumber": "Sporetal Combat Godspore Quest",
+      "mQuestName": "Sporetal Combat Godspore Quest",
+      "mQuestNumber": "Quest213",
       "mQuestDescription": "Quest Start: Primirium Tybale (-316 182 -672)",
       "mQuestCompleteScores": [
         12
@@ -3570,15 +3609,16 @@
       }
     },
     {
-      "mQuestName": "Quest214",
-      "mQuestNumber": "",
+      "mQuestName": "",
+      "mQuestNumber": "Quest214",
       "mQuestDescription": "Quest Start:",
       "mQuestCompleteScores": [],
       "mQuestReqs": [
         ""
       ],
       "mQuestValues": {
-        "0": ""
+        "0": "",
+        "Note: possible missing info - please check wiki @ https://wiki.playmonumenta.com/moderating/quest-scores": ""
       }
     }
   ]
